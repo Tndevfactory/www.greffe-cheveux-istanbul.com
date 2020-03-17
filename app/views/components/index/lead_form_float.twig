@@ -1,0 +1,69 @@
+<!-- lead_form_float-->
+
+{# visible on md and up and below  #}
+  
+     
+          <form 
+          style=" 
+            width:500px;
+            position:relative;
+            top:-90px;
+            left:1200px;
+            background:rgba(55,166,222,.9);
+            z-index:900;
+            border-radius:10px;
+            
+            " 
+
+          id="lead_form_float" 
+          action="{{URLROOT}}/homes" 
+          method="post" 
+          class="text-center form d-none d-lg-block p-3 z-depth-2 "
+          >
+                 
+                 <h4 class="text-center white-text mb-4 " >Demander un devis </h4>
+                      <div class="form-group">
+                          <input type="text" name="name" class="form-control mb-2  {{ data.name_err == ''? '': 'is-invalid'  }}"   placeholder="Veuillez entrer votre nom complet ">
+                          <div class="invalid-feedback"> {{data.name_err }} </div>
+                      </div>
+
+                      <div class="form-group">
+                            <input type="email" name="email" class="form-control mb-2 {{ data.email_err =='' ? '': 'is-invalid'  }}"  placeholder="Veuillez entrer votre email">
+                            <div class="invalid-feedback">{{data.email_err }}</div>
+                      </div>
+                      
+                      <div class="form-group">
+                            <input type="text" name="tel" class="form-control mb-2 {{ data.email_err =='' ? '': 'is-invalid'  }}"  placeholder="Veuillez entrer votre numéro de téléphone">
+                            <div class="invalid-feedback">{{data.email_err }}</div>
+                      </div>
+                      
+                       <div class="form-group">
+                            <input type="text" name="intervention" class="form-control mb-2 {{ data.email_err =='' ? '': 'is-invalid'  }}"  placeholder="Intervention souhaitée">
+                            <div class="invalid-feedback">{{data.email_err }}</div>
+                      </div>
+                      
+                      
+                        <button 
+                        style="margin-top:-4px;border-radius:8px" 
+                        class="ml-4 btn blue white-text darken-2  ">
+                        Envoyer
+                        </button>
+          </form>
+   
+ <script>
+ window.addEventListener('resize', function(event){
+ var w = parseInt(window.innerWidth);
+  console.log(w);
+  pos=w-600;
+  console.log(pos);
+  document.getElementById("lead_form_float").style.left = pos + 'px';
+});
+ 
+ 
+ window.addEventListener('load', function(event){
+ var w = parseInt(window.innerWidth);
+   pos=w-600;
+  document.getElementById("lead_form_float").style.left = pos + 'px';
+});
+
+ </script>

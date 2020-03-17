@@ -1,0 +1,21 @@
+{#  macro #}
+{% macro input(name, label, value = null, err = [], options = [] ) %}
+
+  <div class="form-group {{ options.class }}">
+    <label for="{{ name }}"> {{label}} :</label>
+    <input type="{{ options.type ?: 'text' }}" name="{{ name }}" id="{{ name }}" value="{{value}}" class="{{ err.msg ? 'is-invalid' : '' }} form-control">
+    <span class="invalid-feedback">{{ err.msg ?: '' }}</span>
+    </div>
+
+  {% endmacro %}
+
+{% macro textarea(name, label, options = [] ) %}
+
+  <div class="form-group {{ options.class }}">
+
+    <label for="{{ name }}"> {{label}} :</label>
+    <textarea name="{{ name }}" id="{{ name }}" class="form-control" row="3"></textarea>
+
+    </div>
+
+  {% endmacro %}
