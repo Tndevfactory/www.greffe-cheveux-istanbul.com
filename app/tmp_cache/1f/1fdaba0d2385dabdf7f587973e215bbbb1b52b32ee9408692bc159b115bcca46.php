@@ -40,7 +40,7 @@ class __TwigTemplate_4138f58d492f8ae6dd44689339f3c1908bfe129c923f389a38ee39d4a32
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
           <h1>Greffe Sourcils</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+          <p>traitement des anomalies des sourcils</p>
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@ class __TwigTemplate_4138f58d492f8ae6dd44689339f3c1908bfe129c923f389a38ee39d4a32
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
           <h1>Greffe Sourcils</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+          <p>traitement des anomalies des sourcils</p>
         </div>
       </div>
     </div>

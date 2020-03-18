@@ -37,7 +37,7 @@ class __TwigTemplate_a8c58489a452942032f02f8d0478485ec8ce943a87af10ae3b326b4b97d
         echo "<!-- STAFF -->
   <section id=\"staff\" class=\"py-5 text-center bg-dark text-white\">
     <div class=\"container\">
-      <h1>Our Staff</h1>
+      <h1>Notre Equipe</h1>
       <hr>
       <div class=\"row\">
         <div class=\"col-md-3\">
@@ -97,7 +97,7 @@ class __TwigTemplate_a8c58489a452942032f02f8d0478485ec8ce943a87af10ae3b326b4b97d
         return new Source("<!-- STAFF -->
   <section id=\"staff\" class=\"py-5 text-center bg-dark text-white\">
     <div class=\"container\">
-      <h1>Our Staff</h1>
+      <h1>Notre Equipe</h1>
       <hr>
       <div class=\"row\">
         <div class=\"col-md-3\">

@@ -35,14 +35,15 @@ class __TwigTemplate_3da03c2c8747b27291106d232c870b6611d3ff4842e448b9d03347d21ec
         $macros = $this->macros;
         // line 1
         echo "
-
 <nav  class=\"navbar navbar-expand-lg navbar-light bg-light sticky-top \">
 
-            <a class=\"navbar-brand pl-3\" href=\"#\"> <img height=\"80\" width=\"80\" src=\"";
-        // line 5
+            <a class=\"navbar-brand pl-3\" href=\"";
+        // line 4
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/homes\"> <img height=\"80\" width=\"80\" src=\"";
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/logo/health_expert_logo.png\" class=\"img-fluid\" alt=\"logo Health Experts\">  
-               <span class=\"text-capitalize h4 \" > Health Experts </span> 
+               <span class=\"text-capitalize h4 \" > Hair Experts </span> 
             </a>
         
             <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#MyNavbar\" >
@@ -55,44 +56,44 @@ class __TwigTemplate_3da03c2c8747b27291106d232c870b6611d3ff4842e448b9d03347d21ec
 
                 <li class=\"nav-item active\">
                   <a class=\"nav-link\" href=\"";
-        // line 18
+        // line 17
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/index\">Home </a>
+        echo "/homes\">Home </a>
                 </li>
 
                 <li class=\"nav-item\">
                       <a class=\"nav-link\" href=\"";
-        // line 22
+        // line 21
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/greffe_cheveux_dhi\">Greffe Cheveux </a>
+        echo "/homes/greffeCheveuxTurquie\">Greffe Cheveux </a>
                 </li>
 
                 <li class=\"nav-item dropdown\">
                 <a class=\"nav-link\" href=\"";
-        // line 26
+        // line 25
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/greffe_barbe\">Greffe Barbe </a>
+        echo "/homes/greffeBarbe\">Greffe Barbe </a>
                 </li>
 
 
                 <li class=\"nav-item\">
                   <a class=\"nav-link\" href=\"";
-        // line 31
+        // line 30
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/greffe_sourcils\">Greffe Sourcils </a>
+        echo "/homes/greffeSourcils\">Greffe Sourcils </a>
                 </li>
 
                 
                 <li class=\"nav-item\">
                   <a class=\"nav-link\" href=\"";
-        // line 36
+        // line 35
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/qui_sommes_nous\">Qui Sommes Nous </a>
+        echo "/homes/quiSommesNous\">Qui Sommes Nous </a>
                 </li> 
                 
                 <li class=\"nav-item\">
                   <a class=\"nav-link\" href=\"";
-        // line 40
+        // line 39
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/homes/contact\">Contact </a>
                 </li>
@@ -127,17 +128,16 @@ class __TwigTemplate_3da03c2c8747b27291106d232c870b6611d3ff4842e448b9d03347d21ec
 
     public function getDebugInfo()
     {
-        return array (  102 => 49,  96 => 40,  89 => 36,  81 => 31,  73 => 26,  66 => 22,  59 => 18,  43 => 5,  37 => 1,);
+        return array (  103 => 49,  97 => 39,  90 => 35,  82 => 30,  74 => 25,  67 => 21,  60 => 17,  42 => 4,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("
-
 <nav  class=\"navbar navbar-expand-lg navbar-light bg-light sticky-top \">
 
-            <a class=\"navbar-brand pl-3\" href=\"#\"> <img height=\"80\" width=\"80\" src=\"{{URLROOT}}/public/img/logo/health_expert_logo.png\" class=\"img-fluid\" alt=\"logo Health Experts\">  
-               <span class=\"text-capitalize h4 \" > Health Experts </span> 
+            <a class=\"navbar-brand pl-3\" href=\"{{URLROOT}}/homes\"> <img height=\"80\" width=\"80\" src=\"{{URLROOT}}/public/img/logo/health_expert_logo.png\" class=\"img-fluid\" alt=\"logo Health Experts\">  
+               <span class=\"text-capitalize h4 \" > Hair Experts </span> 
             </a>
         
             <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#MyNavbar\" >
@@ -149,25 +149,25 @@ class __TwigTemplate_3da03c2c8747b27291106d232c870b6611d3ff4842e448b9d03347d21ec
               <ul style=\"\" class=\"navbar-nav pl-5 h5  ml-auto pr-5 mr-4\">
 
                 <li class=\"nav-item active\">
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/index\">Home </a>
+                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes\">Home </a>
                 </li>
 
                 <li class=\"nav-item\">
-                      <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffe_cheveux_dhi\">Greffe Cheveux </a>
+                      <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffeCheveuxTurquie\">Greffe Cheveux </a>
                 </li>
 
                 <li class=\"nav-item dropdown\">
-                <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffe_barbe\">Greffe Barbe </a>
+                <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffeBarbe\">Greffe Barbe </a>
                 </li>
 
 
                 <li class=\"nav-item\">
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffe_sourcils\">Greffe Sourcils </a>
+                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffeSourcils\">Greffe Sourcils </a>
                 </li>
 
                 
                 <li class=\"nav-item\">
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/qui_sommes_nous\">Qui Sommes Nous </a>
+                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/quiSommesNous\">Qui Sommes Nous </a>
                 </li> 
                 
                 <li class=\"nav-item\">
@@ -179,6 +179,7 @@ class __TwigTemplate_3da03c2c8747b27291106d232c870b6611d3ff4842e448b9d03347d21ec
                   <a class=\"nav-link\" href=\"{{URLROOT}}/homes/language/fr\">french </a>
                   <a class=\"nav-link\" href=\"{{URLROOT}}/homes/language/en\">english</a>
                   <a class=\"nav-link\" href=\"{{URLROOT}}/homes/language/en\">{{lang}}----</a>
+                  
                 </li> #}
 
             </div>

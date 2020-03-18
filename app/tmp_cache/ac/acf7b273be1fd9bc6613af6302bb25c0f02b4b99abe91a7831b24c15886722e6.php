@@ -34,23 +34,28 @@ class __TwigTemplate_97975b195d96a22b2f9387c4b48442b62046cdaee6b3d66f97498f8a30d
     {
         $macros = $this->macros;
         // line 1
-        echo "<!-- Footer -->
-<style>
-   .spacer {
-      height:100px;
-      
-   }
-    
- </style>
+        echo "<!-- Footer  fixed-bottom-->
 
-<div class=\"spacer\"></div>
 
-<footer style=\"background-color:#1A5EA4\" class=\"footer fixed-bottom mt-auto  py-3 white-text font-small \">
+<footer style=\"background-color:#1A5EA4\" class=\"footer  mt-auto  py-4 white-text font-small \">
  
-  <div class=\"footer-copyright text-center py-4 white-text\">
-         <span> Copyright &copy; <span id=\"year\"></span> Health Experts </span>
+         <div class=\"footer-copyright text-center py-2 white-text\">
+\t\t\t <span class=\"text-muted\"> Copyright &copy; 
+\t\t\t <span id=\"year\"> </span> 
+\t\t\t <span class=\"text-muted\" > <a  class=\"text-muted\" href=\"https://tndevfactory.com\">  Tn DEV FACTORY </a> </span>
+\t\t\t</span>
+\t\t</div>
+        
+        
   </div>
- 
+
+ <div class=\"mt-1 text-center\">
+        
+          <a href=\"#\" >   <span class=\"  pl-2 white-text\"> <i class=\" fab fa-facebook-square fa-1x\"></i></span> </a>
+          <a href=\"#\" >   <span class=\"  pl-2 white-text\"><i class=\" fab fa-instagram fa-1x\"></i> </span> </a>
+           <a href=\"#\" >  <span class=\"  pl-2 white-text\"><i class=\" fab fa-youtube fa-1x\"></i> </span> </a>
+            <a href=\"#\" > <span class=\"  pl-2 white-text\"><i class=\" fab fa-snapchat-square fa-1x\"></i>    </span></a>
+        </div>
 
 </footer>
 
@@ -74,23 +79,28 @@ class __TwigTemplate_97975b195d96a22b2f9387c4b48442b62046cdaee6b3d66f97498f8a30d
 
     public function getSourceContext()
     {
-        return new Source("<!-- Footer -->
-<style>
-   .spacer {
-      height:100px;
-      
-   }
-    
- </style>
+        return new Source("<!-- Footer  fixed-bottom-->
 
-<div class=\"spacer\"></div>
 
-<footer style=\"background-color:#1A5EA4\" class=\"footer fixed-bottom mt-auto  py-3 white-text font-small \">
+<footer style=\"background-color:#1A5EA4\" class=\"footer  mt-auto  py-4 white-text font-small \">
  
-  <div class=\"footer-copyright text-center py-4 white-text\">
-         <span> Copyright &copy; <span id=\"year\"></span> Health Experts </span>
+         <div class=\"footer-copyright text-center py-2 white-text\">
+\t\t\t <span class=\"text-muted\"> Copyright &copy; 
+\t\t\t <span id=\"year\"> </span> 
+\t\t\t <span class=\"text-muted\" > <a  class=\"text-muted\" href=\"https://tndevfactory.com\">  Tn DEV FACTORY </a> </span>
+\t\t\t</span>
+\t\t</div>
+        
+        
   </div>
- 
+
+ <div class=\"mt-1 text-center\">
+        
+          <a href=\"#\" >   <span class=\"  pl-2 white-text\"> <i class=\" fab fa-facebook-square fa-1x\"></i></span> </a>
+          <a href=\"#\" >   <span class=\"  pl-2 white-text\"><i class=\" fab fa-instagram fa-1x\"></i> </span> </a>
+           <a href=\"#\" >  <span class=\"  pl-2 white-text\"><i class=\" fab fa-youtube fa-1x\"></i> </span> </a>
+            <a href=\"#\" > <span class=\"  pl-2 white-text\"><i class=\" fab fa-snapchat-square fa-1x\"></i>    </span></a>
+        </div>
 
 </footer>
 

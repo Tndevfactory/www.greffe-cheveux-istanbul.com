@@ -39,8 +39,8 @@ class __TwigTemplate_ac029b62a7e51cdd316a1d0a6a16f2bd26d79066c6b127c1545c063a066
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
-          <h1>Greffe Cheveux</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+          <h1>Greffe cheveux Turquie</h1>
+          <p>traitement calvitie prix tout-compris</p>
         </div>
       </div>
     </div>
@@ -64,8 +64,8 @@ class __TwigTemplate_ac029b62a7e51cdd316a1d0a6a16f2bd26d79066c6b127c1545c063a066
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
-          <h1>Greffe Cheveux</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+          <h1>Greffe cheveux Turquie</h1>
+          <p>traitement calvitie prix tout-compris</p>
         </div>
       </div>
     </div>

@@ -25,6 +25,7 @@ class __TwigTemplate_47f0fdc4a98acb9c6260a303e0f8d32096d692ef3249142b5b939fcc772
         $this->source = $this->getSourceContext();
 
         $this->blocks = [
+            'meta' => [$this, 'block_meta'],
             'head' => [$this, 'block_head'],
             'content' => [$this, 'block_content'],
         ];
@@ -43,31 +44,42 @@ class __TwigTemplate_47f0fdc4a98acb9c6260a303e0f8d32096d692ef3249142b5b939fcc772
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 4
+    // line 3
+    public function block_meta($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 4
+        echo "      <meta name=\"title\" content=\"contact clinic \">
+      <meta name=\"description\" content=\"contact clinique istanbul \">
+      <meta name=\"keywords\" content=\"contact\">
+    ";
+    }
+
+    // line 8
     public function block_head($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 5
+        // line 9
         echo "    <title> CONTACT </title>
 ";
     }
 
-    // line 9
+    // line 13
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 10
+        // line 14
         echo "
  ";
-        // line 11
-        $this->loadTemplate("/components/contact/page_header.twig", "/homes/contact.twig", 11)->display($context);
-        // line 12
+        // line 15
+        $this->loadTemplate("/components/contact/page_header.twig", "/homes/contact.twig", 15)->display($context);
+        // line 16
         echo " ";
-        $this->loadTemplate("/components/contact/contact_section.twig", "/homes/contact.twig", 12)->display($context);
-        // line 13
+        $this->loadTemplate("/components/contact/contact_section.twig", "/homes/contact.twig", 16)->display($context);
+        // line 17
         echo " ";
-        $this->loadTemplate("/components/contact/staff.twig", "/homes/contact.twig", 13)->display($context);
-        // line 14
+        $this->loadTemplate("/components/contact/staff.twig", "/homes/contact.twig", 17)->display($context);
+        // line 18
         echo " 
 
 ";
@@ -85,14 +97,18 @@ class __TwigTemplate_47f0fdc4a98acb9c6260a303e0f8d32096d692ef3249142b5b939fcc772
 
     public function getDebugInfo()
     {
-        return array (  71 => 14,  68 => 13,  65 => 12,  63 => 11,  60 => 10,  56 => 9,  51 => 5,  47 => 4,  36 => 2,);
+        return array (  83 => 18,  80 => 17,  77 => 16,  75 => 15,  72 => 14,  68 => 13,  63 => 9,  59 => 8,  52 => 4,  48 => 3,  37 => 2,);
     }
 
     public function getSourceContext()
     {
         return new Source("
 {% extends 'layout.twig' %}
-
+{% block meta %}
+      <meta name=\"title\" content=\"contact clinic \">
+      <meta name=\"description\" content=\"contact clinique istanbul \">
+      <meta name=\"keywords\" content=\"contact\">
+    {% endblock  %}
 {% block head %}
     <title> CONTACT </title>
 {% endblock  %}

@@ -57,7 +57,8 @@ class __TwigTemplate_08bdc07a97d9dd74c5ca771492c1a180a0131db8a56cac0bec6b2f135c9
     {
         $macros = $this->macros;
         // line 5
-        echo "    <title> HOME </title>
+        echo "    <title>Greffe cheveux Istanbul : Prix greffe cheveux Turquie </title>
+    <meta name=\"description\" content=\"Greffe de cheveux à Istanbul|Méthode DHI, FUE|Meilleure clinique Turquie,séjour tout compris|Implants capillaires garantis\" />
     
      <style>
          
@@ -67,168 +68,168 @@ class __TwigTemplate_08bdc07a97d9dd74c5ca771492c1a180a0131db8a56cac0bec6b2f135c9
 ";
     }
 
-    // line 16
+    // line 17
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 17
+        // line 18
         echo "
     ";
-        // line 18
+        // line 19
         $this->displayBlock('carousel', $context, $blocks);
-        // line 21
+        // line 22
         echo "   
     ";
-        // line 22
+        // line 23
         $this->displayBlock('lead_form_float', $context, $blocks);
-        // line 25
+        // line 26
         echo "
     ";
-        // line 26
+        // line 27
         $this->displayBlock('lead_form_fix', $context, $blocks);
-        // line 29
+        // line 30
         echo "    
     ";
-        // line 30
+        // line 31
         $this->displayBlock('home_icon_section', $context, $blocks);
-        // line 35
-        echo "
-    ";
         // line 36
+        echo "
+    ";
+        // line 37
         $this->displayBlock('home_heading_section', $context, $blocks);
-        // line 39
-        echo "
-    ";
         // line 40
+        echo "
+    ";
+        // line 41
         $this->displayBlock('info_section', $context, $blocks);
-        // line 45
-        echo "
-    ";
         // line 46
+        echo "
+    ";
+        // line 47
         $this->displayBlock('video_play_section', $context, $blocks);
-        // line 49
-        echo "
-    ";
         // line 50
-        $this->displayBlock('photo_gallery_section', $context, $blocks);
-        // line 55
         echo "
     ";
+        // line 51
+        $this->displayBlock('photo_gallery_section', $context, $blocks);
         // line 56
+        echo "
+    ";
+        // line 57
         $this->displayBlock('newsletter_section', $context, $blocks);
-        // line 59
+        // line 60
         echo "
 
 ";
     }
 
-    // line 18
+    // line 19
     public function block_carousel($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 19
-        echo "        ";
-        $this->loadTemplate("/components/index/showcase_caroussel.twig", "/homes/index.twig", 19)->display($context);
         // line 20
+        echo "        ";
+        $this->loadTemplate("/components/index/showcase_caroussel.twig", "/homes/index.twig", 20)->display($context);
+        // line 21
         echo "    ";
     }
 
-    // line 22
+    // line 23
     public function block_lead_form_float($context, array $blocks = [])
     {
         $macros = $this->macros;
         echo " 
           ";
-        // line 23
-        $this->loadTemplate("/components/index/lead_form_float.twig", "/homes/index.twig", 23)->display($context);
         // line 24
+        $this->loadTemplate("/components/index/lead_form_float.twig", "/homes/index.twig", 24)->display($context);
+        // line 25
         echo "    ";
     }
 
-    // line 26
+    // line 27
     public function block_lead_form_fix($context, array $blocks = [])
     {
         $macros = $this->macros;
         echo " 
           ";
-        // line 27
-        $this->loadTemplate("/components/index/lead_form_fix.twig", "/homes/index.twig", 27)->display($context);
         // line 28
+        $this->loadTemplate("/components/index/lead_form_fix.twig", "/homes/index.twig", 28)->display($context);
+        // line 29
         echo "    ";
     }
 
-    // line 30
+    // line 31
     public function block_home_icon_section($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 31
+        // line 32
         echo "        <div class=\"container \">
          ";
-        // line 32
-        $this->loadTemplate("/components/index/home_icon_section.twig", "/homes/index.twig", 32)->display($context);
         // line 33
+        $this->loadTemplate("/components/index/home_icon_section.twig", "/homes/index.twig", 33)->display($context);
+        // line 34
         echo "        </div>
     ";
     }
 
-    // line 36
+    // line 37
     public function block_home_heading_section($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 37
-        echo "        ";
-        $this->loadTemplate("/components/index/home_heading_section.twig", "/homes/index.twig", 37)->display($context);
         // line 38
+        echo "        ";
+        $this->loadTemplate("/components/index/home_heading_section.twig", "/homes/index.twig", 38)->display($context);
+        // line 39
         echo "    ";
     }
 
-    // line 40
+    // line 41
     public function block_info_section($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 41
+        // line 42
         echo "      <div class=\"container \">
         ";
-        // line 42
-        $this->loadTemplate("/components/index/info_section.twig", "/homes/index.twig", 42)->display($context);
         // line 43
+        $this->loadTemplate("/components/index/info_section.twig", "/homes/index.twig", 43)->display($context);
+        // line 44
         echo "      </div>
     ";
     }
 
-    // line 46
+    // line 47
     public function block_video_play_section($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 47
-        echo "    ";
-        $this->loadTemplate("/components/index/video_play_section.twig", "/homes/index.twig", 47)->display($context);
         // line 48
+        echo "    ";
+        $this->loadTemplate("/components/index/video_play_section.twig", "/homes/index.twig", 48)->display($context);
+        // line 49
         echo "    ";
     }
 
-    // line 50
+    // line 51
     public function block_photo_gallery_section($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 51
+        // line 52
         echo "      <div class=\"container \">
         ";
-        // line 52
-        $this->loadTemplate("/components/index/photo_gallery_section.twig", "/homes/index.twig", 52)->display($context);
         // line 53
+        $this->loadTemplate("/components/index/photo_gallery_section.twig", "/homes/index.twig", 53)->display($context);
+        // line 54
         echo "      </div>
     ";
     }
 
-    // line 56
+    // line 57
     public function block_newsletter_section($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 57
-        echo "      ";
-        $this->loadTemplate("/components/index/newsletter_section.twig", "/homes/index.twig", 57)->display($context);
         // line 58
+        echo "      ";
+        $this->loadTemplate("/components/index/newsletter_section.twig", "/homes/index.twig", 58)->display($context);
+        // line 59
         echo "    ";
     }
 
@@ -244,7 +245,7 @@ class __TwigTemplate_08bdc07a97d9dd74c5ca771492c1a180a0131db8a56cac0bec6b2f135c9
 
     public function getDebugInfo()
     {
-        return array (  232 => 58,  229 => 57,  225 => 56,  220 => 53,  218 => 52,  215 => 51,  211 => 50,  207 => 48,  204 => 47,  200 => 46,  195 => 43,  193 => 42,  190 => 41,  186 => 40,  182 => 38,  179 => 37,  175 => 36,  170 => 33,  168 => 32,  165 => 31,  161 => 30,  157 => 28,  155 => 27,  149 => 26,  145 => 24,  143 => 23,  137 => 22,  133 => 20,  130 => 19,  126 => 18,  120 => 59,  118 => 56,  115 => 55,  113 => 50,  110 => 49,  108 => 46,  105 => 45,  103 => 40,  100 => 39,  98 => 36,  95 => 35,  93 => 30,  90 => 29,  88 => 26,  85 => 25,  83 => 22,  80 => 21,  78 => 18,  75 => 17,  71 => 16,  60 => 5,  56 => 4,  45 => 2,);
+        return array (  233 => 59,  230 => 58,  226 => 57,  221 => 54,  219 => 53,  216 => 52,  212 => 51,  208 => 49,  205 => 48,  201 => 47,  196 => 44,  194 => 43,  191 => 42,  187 => 41,  183 => 39,  180 => 38,  176 => 37,  171 => 34,  169 => 33,  166 => 32,  162 => 31,  158 => 29,  156 => 28,  150 => 27,  146 => 25,  144 => 24,  138 => 23,  134 => 21,  131 => 20,  127 => 19,  121 => 60,  119 => 57,  116 => 56,  114 => 51,  111 => 50,  109 => 47,  106 => 46,  104 => 41,  101 => 40,  99 => 37,  96 => 36,  94 => 31,  91 => 30,  89 => 27,  86 => 26,  84 => 23,  81 => 22,  79 => 19,  76 => 18,  72 => 17,  60 => 5,  56 => 4,  45 => 2,);
     }
 
     public function getSourceContext()
@@ -253,7 +254,8 @@ class __TwigTemplate_08bdc07a97d9dd74c5ca771492c1a180a0131db8a56cac0bec6b2f135c9
 {% extends 'layout.twig' %}
 
 {% block head %}
-    <title> HOME </title>
+    <title>Greffe cheveux Istanbul : Prix greffe cheveux Turquie </title>
+    <meta name=\"description\" content=\"Greffe de cheveux à Istanbul|Méthode DHI, FUE|Meilleure clinique Turquie,séjour tout compris|Implants capillaires garantis\" />
     
      <style>
          

@@ -33,8 +33,8 @@ define('APPROOT',dirname(dirname(__FILE__)));
 
 // url root Root
 
-//define('URLROOT','http://localhost/greffe-cheveux-istanbul.com');
-define('URLROOT','https://www.greffe-cheveux-istanbul.com');
+define('URLROOT','http://localhost/greffe-cheveux-istanbul.com');
+//define('URLROOT','https://www.greffe-cheveux-istanbul.com');
 
 // local root http://localhost/greffe-cheveux-istanbul.com
 

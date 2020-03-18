@@ -37,15 +37,16 @@ class __TwigTemplate_8ca588fa3ad634cf9a894d65396875fab6b56b98b7c4f2673881ae97278
         echo "<!-- NEWSLETTER -->
 <!-- newsletter -->
   <section id=\"newsletter\" class=\"text-center p-5 bg-dark text-white\">
-    <div class=\"container\">
+    <div class=\"container pb-5 \">
       <div class=\"row\">
         <div class=\"col\">
-          <h1>Sign Up For Our Newsletterlang </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores consectetur, quae ducimus voluptates
-            vero repellendus architecto maiores recusandae mollitia?</p>
+
+          <h1 class=\"mb-3\">Inscrivez-vous à notre Newsletter</h1>
+
+          
 
           <form id=\"newslater_form\" action=\"";
-        // line 11
+        // line 12
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/homes/newsletter\" method=\"post\" class=\"form-row justify-content-center needs-validation\">
       
@@ -54,12 +55,12 @@ class __TwigTemplate_8ca588fa3ad634cf9a894d65396875fab6b56b98b7c4f2673881ae97278
                   <div class=\"col-md-6\">
                       <div class=\"form-group\">
                           <input type=\"text\" name=\"name\" class=\"form-control mb-2  ";
-        // line 17
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 17), "")) ? ("") : ("is-invalid"));
+        // line 18
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 18), "")) ? ("") : ("is-invalid"));
         echo "\"   placeholder=\"veuillez entrer votre nom \">
                           <div class=\"invalid-feedback\"> ";
-        // line 18
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 18), "html", null, true);
+        // line 19
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "name_err", [], "any", false, false, false, 19), "html", null, true);
         echo " </div>
                       </div>
                     </div>
@@ -68,12 +69,12 @@ class __TwigTemplate_8ca588fa3ad634cf9a894d65396875fab6b56b98b7c4f2673881ae97278
 
                       <div class=\"form-group\">
                             <input type=\"email\" name=\"email\" class=\"form-control mb-2 ";
-        // line 25
-        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 25), "")) ? ("") : ("is-invalid"));
+        // line 26
+        echo ((0 === twig_compare(twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 26), "")) ? ("") : ("is-invalid"));
         echo "\"  placeholder=\"veuillez entrer votre email\">
                             <div class=\"invalid-feedback\">";
-        // line 26
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 26), "html", null, true);
+        // line 27
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "email_err", [], "any", false, false, false, 27), "html", null, true);
         echo "</div>
                       </div>
                       
@@ -84,7 +85,14 @@ class __TwigTemplate_8ca588fa3ad634cf9a894d65396875fab6b56b98b7c4f2673881ae97278
 
                    <div class=\"row \">
                       <div class=\"col-md-6\">
-                          <button style=\"margin-top:-4px\" class=\"ml-4 btn btn-primary \">Submit</button>
+                          <button 
+                              style=\"
+                                margin-top:-4px;
+                               
+                              \" 
+                              class=\"ml-4 btn btn-outline-primary rounded\">
+                              Envoyer
+                          </button>
                         
                   </div>
                   </div>
@@ -96,7 +104,7 @@ class __TwigTemplate_8ca588fa3ad634cf9a894d65396875fab6b56b98b7c4f2673881ae97278
           <div class=\"row \">
                       <div class=\"col-md-10 ml-3 green-text   \">
                       ";
-        // line 47
+        // line 55
         echo twig_escape_filter($this->env, ($context["register_success"] ?? null), "html", null, true);
         echo "
                   </div>
@@ -120,7 +128,7 @@ class __TwigTemplate_8ca588fa3ad634cf9a894d65396875fab6b56b98b7c4f2673881ae97278
 
     public function getDebugInfo()
     {
-        return array (  100 => 47,  76 => 26,  72 => 25,  62 => 18,  58 => 17,  49 => 11,  37 => 1,);
+        return array (  108 => 55,  77 => 27,  73 => 26,  63 => 19,  59 => 18,  50 => 12,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -128,12 +136,13 @@ class __TwigTemplate_8ca588fa3ad634cf9a894d65396875fab6b56b98b7c4f2673881ae97278
         return new Source("<!-- NEWSLETTER -->
 <!-- newsletter -->
   <section id=\"newsletter\" class=\"text-center p-5 bg-dark text-white\">
-    <div class=\"container\">
+    <div class=\"container pb-5 \">
       <div class=\"row\">
         <div class=\"col\">
-          <h1>Sign Up For Our Newsletterlang </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores consectetur, quae ducimus voluptates
-            vero repellendus architecto maiores recusandae mollitia?</p>
+
+          <h1 class=\"mb-3\">Inscrivez-vous à notre Newsletter</h1>
+
+          
 
           <form id=\"newslater_form\" action=\"{{URLROOT}}/homes/newsletter\" method=\"post\" class=\"form-row justify-content-center needs-validation\">
       
@@ -160,7 +169,14 @@ class __TwigTemplate_8ca588fa3ad634cf9a894d65396875fab6b56b98b7c4f2673881ae97278
 
                    <div class=\"row \">
                       <div class=\"col-md-6\">
-                          <button style=\"margin-top:-4px\" class=\"ml-4 btn btn-primary \">Submit</button>
+                          <button 
+                              style=\"
+                                margin-top:-4px;
+                               
+                              \" 
+                              class=\"ml-4 btn btn-outline-primary rounded\">
+                              Envoyer
+                          </button>
                         
                   </div>
                   </div>

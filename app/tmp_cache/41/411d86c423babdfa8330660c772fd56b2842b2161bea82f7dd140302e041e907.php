@@ -40,15 +40,20 @@ class __TwigTemplate_01a5861cbdcd2da6aada6f1e0932f1be2cd0934a51b6b22b6e94ad84f23
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 align-self-center\">
-          <h3>Lorem Ipsumlang</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum
-            cum laudantium ex sequi amet.</p>
-          <a href=\"about.html\" class=\"btn btn-outline-danger btn-lg\">Learn More </a>
+          <h3>Les docteurs Hair Expert</h3>
+          <p>Hair Expert a choisit les meilleurs médecins turcs spécialisés dans la greffe cheveux. Nos médecins partenaires opèrent dans la meilleure clinjque d'Istanbul</p>
+         
+         
+          <a href=\"";
+        // line 11
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "/homes/qui_sommes_nous\" class=\" z-depth-2 btn btn-outline-blue btn-lg\">En savoir plus </a>
+         
         </div>
         <div class=\"col-md-6 p-2\">
         
           <img src=\"";
-        // line 14
+        // line 16
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/public/img/info_section/expert.jpg\" alt=\"\" class=\"img-fluid\">
         </div>
@@ -69,7 +74,7 @@ class __TwigTemplate_01a5861cbdcd2da6aada6f1e0932f1be2cd0934a51b6b22b6e94ad84f23
 
     public function getDebugInfo()
     {
-        return array (  52 => 14,  37 => 1,);
+        return array (  57 => 16,  49 => 11,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -80,10 +85,12 @@ class __TwigTemplate_01a5861cbdcd2da6aada6f1e0932f1be2cd0934a51b6b22b6e94ad84f23
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 align-self-center\">
-          <h3>Lorem Ipsumlang</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum
-            cum laudantium ex sequi amet.</p>
-          <a href=\"about.html\" class=\"btn btn-outline-danger btn-lg\">Learn More </a>
+          <h3>Les docteurs Hair Expert</h3>
+          <p>Hair Expert a choisit les meilleurs médecins turcs spécialisés dans la greffe cheveux. Nos médecins partenaires opèrent dans la meilleure clinjque d'Istanbul</p>
+         
+         
+          <a href=\"{{URLROOT}}/homes/qui_sommes_nous\" class=\" z-depth-2 btn btn-outline-blue btn-lg\">En savoir plus </a>
+         
         </div>
         <div class=\"col-md-6 p-2\">
         

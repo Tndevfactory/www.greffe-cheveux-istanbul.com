@@ -39,8 +39,8 @@ class __TwigTemplate_293c73719ea6c45cc0fbe215145739fff38300b004cde1b49ad04be3a66
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
-          <h1>Read Our Blog</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+          <h1>Greffe Barbe</h1>
+          <p>traitement des anomalies de barbe</p>
         </div>
       </div>
     </div>
@@ -64,8 +64,8 @@ class __TwigTemplate_293c73719ea6c45cc0fbe215145739fff38300b004cde1b49ad04be3a66
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
-          <h1>Read Our Blog</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+          <h1>Greffe Barbe</h1>
+          <p>traitement des anomalies de barbe</p>
         </div>
       </div>
     </div>

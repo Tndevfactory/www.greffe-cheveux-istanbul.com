@@ -45,7 +45,7 @@ class __TwigTemplate_a3a39fad0f922df379f18e005ada48780eb4f56db57b5f41460385ae19b
             <a href=\"#\" class=\"video\" data-video=\"https://www.youtube.com/embed/UA8Yd7a08HM\" data-toggle=\"modal\" data-target=\"#videoModal\">
               <i class=\"fas fa-play fa-3x\"></i>
             </a>
-            <h1>See What We Do </h1>
+            <h1>Notre Savoir Faire</h1>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ class __TwigTemplate_a3a39fad0f922df379f18e005ada48780eb4f56db57b5f41460385ae19b
             <a href=\"#\" class=\"video\" data-video=\"https://www.youtube.com/embed/UA8Yd7a08HM\" data-toggle=\"modal\" data-target=\"#videoModal\">
               <i class=\"fas fa-play fa-3x\"></i>
             </a>
-            <h1>See What We Do </h1>
+            <h1>Notre Savoir Faire</h1>
           </div>
         </div>
       </div>

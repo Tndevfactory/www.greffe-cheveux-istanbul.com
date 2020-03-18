@@ -35,13 +35,13 @@ class __TwigTemplate_2d52ca74ba56de57c52dcf6d1a02b12402724dca4a23dea76e413e22336
         $macros = $this->macros;
         // line 1
         echo "<!-- home_heading_section -->
-  <section id=\"home-heading\" class=\"p-5\">
+  <section id=\"home-heading\" class=\"p-5 img-fluid\">
     <div class=\"dark-overlay\">
       <div class=\"row\">
         <div class=\"col\">
           <div class=\"container pt-5\">
-            <h1> Are You Ready To Get Started? </h1>
-            <p class=\"d-none d-md-block\">Lorem ipsum dolor</p>
+            <h1> Commencez maintenant à retrouver vos cheveux</h1>
+            <p class=\"d-none d-md-block\">Votre devis greffe en moins d'une minute</p>
           </div>
         </div>
       </div>
@@ -63,13 +63,13 @@ class __TwigTemplate_2d52ca74ba56de57c52dcf6d1a02b12402724dca4a23dea76e413e22336
     public function getSourceContext()
     {
         return new Source("<!-- home_heading_section -->
-  <section id=\"home-heading\" class=\"p-5\">
+  <section id=\"home-heading\" class=\"p-5 img-fluid\">
     <div class=\"dark-overlay\">
       <div class=\"row\">
         <div class=\"col\">
           <div class=\"container pt-5\">
-            <h1> Are You Ready To Get Started? </h1>
-            <p class=\"d-none d-md-block\">Lorem ipsum dolor</p>
+            <h1> Commencez maintenant à retrouver vos cheveux</h1>
+            <p class=\"d-none d-md-block\">Votre devis greffe en moins d'une minute</p>
           </div>
         </div>
       </div>

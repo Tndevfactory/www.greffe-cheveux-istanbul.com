@@ -27,6 +27,7 @@ class __TwigTemplate_668e7ead3066524520596b94b1022be785d23d89d0d69a15047917b36b1
         $this->parent = false;
 
         $this->blocks = [
+            'meta' => [$this, 'block_meta'],
             'head' => [$this, 'block_head'],
             'content' => [$this, 'block_content'],
             'script' => [$this, 'block_script'],
@@ -48,46 +49,52 @@ class __TwigTemplate_668e7ead3066524520596b94b1022be785d23d89d0d69a15047917b36b1
 <head>
 
     <meta charset=\"UTF-8\">
+    <meta name=\"author\" content=\"barhoumi med chawki tndevfactory\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     
-     ";
-        // line 14
-        $this->loadTemplate("./inc/styles.html.twig", "layout.twig", 14)->display($context);
+    ";
         // line 15
+        $this->displayBlock('meta', $context, $blocks);
+        // line 20
+        echo "
+     ";
+        // line 21
+        $this->loadTemplate("./inc/styles.html.twig", "layout.twig", 21)->display($context);
+        // line 22
         echo "
     ";
-        // line 16
+        // line 23
         $this->displayBlock('head', $context, $blocks);
-        // line 19
+        // line 26
         echo "
 </head>
 
 <body class=\"d-flex flex-column \" >
 
 ";
-        // line 24
-        $this->loadTemplate("/inc/header.html.twig", "layout.twig", 24)->display($context);
-        // line 25
-        $this->loadTemplate("/inc/navbar.html.twig", "layout.twig", 25)->display($context);
-        // line 26
+        // line 31
+        $this->loadTemplate("/inc/header.html.twig", "layout.twig", 31)->display($context);
+        // line 32
+        $this->loadTemplate("/inc/navbar.html.twig", "layout.twig", 32)->display($context);
+        // line 33
         echo "
 ";
-        // line 27
+        // line 34
         $this->displayBlock('content', $context, $blocks);
-        // line 39
+        // line 46
         echo "
 
 ";
-        // line 41
-        $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 41)->display($context);
-        // line 42
-        $this->loadTemplate("./inc/scripts.html.twig", "layout.twig", 42)->display($context);
-        // line 43
+        // line 48
+        $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 48)->display($context);
+        // line 49
+        $this->loadTemplate("./inc/scripts.html.twig", "layout.twig", 49)->display($context);
+        // line 50
         echo "
 ";
-        // line 44
+        // line 51
         $this->displayBlock('script', $context, $blocks);
-        // line 48
+        // line 55
         echo "
  
 
@@ -95,34 +102,45 @@ class __TwigTemplate_668e7ead3066524520596b94b1022be785d23d89d0d69a15047917b36b1
 </html>";
     }
 
-    // line 16
+    // line 15
+    public function block_meta($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 16
+        echo "      <meta name=\"title\" content=\"Greffe cheveux \">
+      <meta name=\"description\" content=\"clinique istanbul \">
+      <meta name=\"keywords\" content=\"DHI\">
+    ";
+    }
+
+    // line 23
     public function block_head($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 17
+        // line 24
         echo "      <title> ";
         echo twig_escape_filter($this->env, ($context["SITENAME"] ?? null), "html", null, true);
         echo "</title>
     ";
     }
 
-    // line 27
+    // line 34
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 28
+        // line 35
         echo "
     ";
-        // line 37
+        // line 44
         echo "
 ";
     }
 
-    // line 44
+    // line 51
     public function block_script($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 45
+        // line 52
         echo "
 
 ";
@@ -140,7 +158,7 @@ class __TwigTemplate_668e7ead3066524520596b94b1022be785d23d89d0d69a15047917b36b1
 
     public function getDebugInfo()
     {
-        return array (  126 => 45,  122 => 44,  117 => 37,  114 => 28,  110 => 27,  103 => 17,  99 => 16,  91 => 48,  89 => 44,  86 => 43,  84 => 42,  82 => 41,  78 => 39,  76 => 27,  73 => 26,  71 => 25,  69 => 24,  62 => 19,  60 => 16,  57 => 15,  55 => 14,  40 => 1,);
+        return array (  144 => 52,  140 => 51,  135 => 44,  132 => 35,  128 => 34,  121 => 24,  117 => 23,  110 => 16,  106 => 15,  98 => 55,  96 => 51,  93 => 50,  91 => 49,  89 => 48,  85 => 46,  83 => 34,  80 => 33,  78 => 32,  76 => 31,  69 => 26,  67 => 23,  64 => 22,  62 => 21,  59 => 20,  57 => 15,  41 => 1,);
     }
 
     public function getSourceContext()
@@ -156,8 +174,15 @@ class __TwigTemplate_668e7ead3066524520596b94b1022be785d23d89d0d69a15047917b36b1
 <head>
 
     <meta charset=\"UTF-8\">
+    <meta name=\"author\" content=\"barhoumi med chawki tndevfactory\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     
+    {% block meta %}
+      <meta name=\"title\" content=\"Greffe cheveux \">
+      <meta name=\"description\" content=\"clinique istanbul \">
+      <meta name=\"keywords\" content=\"DHI\">
+    {% endblock  %}
+
      {% include('./inc/styles.html.twig') %}
 
     {% block head %}

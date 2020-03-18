@@ -48,11 +48,10 @@ class __TwigTemplate_8924a46d80cf5bad14742fa446e43fe56aaca5837732a85c819f19aa018
         <div class=\"carousel-item carousel-image-1 active\">
           <div class=\"container\">
             <div class=\"carousel-caption d-none d-sm-block mb-5\">
-              <h1 class=\"display-3\">HEALTH CARE  </h1>
-              <p class=\"lead\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                quod aliquid inventore vero perspiciatis.</p>
+              <h1 class=\"display-3\">GREFFE CHEVEUX ISTANBUL  </h1>
+              <p class=\"lead\">Votre greffe de cheveux réussie dans la meilleure clinique d'Istanbul</p>
               ";
-        // line 19
+        // line 18
         echo "
             </div>
           </div>
@@ -61,12 +60,11 @@ class __TwigTemplate_8924a46d80cf5bad14742fa446e43fe56aaca5837732a85c819f19aa018
         <div class=\"carousel-item carousel-image-2\">
           <div class=\"container\">
             <div class=\"carousel-caption d-none d-sm-block  mb-5\">
-              <h1 class=\"display-3\">Heading Two</h1>
-              <p class=\"lead\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                quod aliquid inventore vero perspiciatis.</p>
+              <h1 class=\"display-3\">Les meilleurs spécialistes de la perte de cheveux en Turquie</h1>
+              <p class=\"lead\">Prise en charge de votre greffe capillaire par un spécialiste de l'alopécie en Turquie</p>
 
               ";
-        // line 32
+        // line 30
         echo "
             </div>
           </div>
@@ -75,12 +73,11 @@ class __TwigTemplate_8924a46d80cf5bad14742fa446e43fe56aaca5837732a85c819f19aa018
         <div class=\"carousel-item carousel-image-3\">
           <div class=\"container\">
             <div class=\"carousel-caption d-none d-sm-block  mb-5\">
-              <h1 class=\"display-3\">Heading Three</h1>
-              <p class=\"lead\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                quod aliquid inventore vero perspiciatis.</p>
+              <h1 class=\"display-3 white-text\">Les meilleurs spécialistes de la perte de cheveux en Turquie</h1>
+              <p style=\"font-size:18px\" class=\" lead white-text\">Prise en charge de votre greffe capillaire par un spécialiste de l'alopécie en Turquie</p>
               
               ";
-        // line 45
+        // line 42
         echo "
             </div>
           </div>
@@ -105,7 +102,7 @@ class __TwigTemplate_8924a46d80cf5bad14742fa446e43fe56aaca5837732a85c819f19aa018
 
     public function getDebugInfo()
     {
-        return array (  84 => 45,  70 => 32,  56 => 19,  37 => 1,);
+        return array (  81 => 42,  68 => 30,  55 => 18,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -124,9 +121,8 @@ class __TwigTemplate_8924a46d80cf5bad14742fa446e43fe56aaca5837732a85c819f19aa018
         <div class=\"carousel-item carousel-image-1 active\">
           <div class=\"container\">
             <div class=\"carousel-caption d-none d-sm-block mb-5\">
-              <h1 class=\"display-3\">HEALTH CARE  </h1>
-              <p class=\"lead\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                quod aliquid inventore vero perspiciatis.</p>
+              <h1 class=\"display-3\">GREFFE CHEVEUX ISTANBUL  </h1>
+              <p class=\"lead\">Votre greffe de cheveux réussie dans la meilleure clinique d'Istanbul</p>
               {# <a href=\"#\" class=\"btn btn-danger btn-lg\">Sign Up Now</a> #}
 
             </div>
@@ -136,9 +132,8 @@ class __TwigTemplate_8924a46d80cf5bad14742fa446e43fe56aaca5837732a85c819f19aa018
         <div class=\"carousel-item carousel-image-2\">
           <div class=\"container\">
             <div class=\"carousel-caption d-none d-sm-block  mb-5\">
-              <h1 class=\"display-3\">Heading Two</h1>
-              <p class=\"lead\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                quod aliquid inventore vero perspiciatis.</p>
+              <h1 class=\"display-3\">Les meilleurs spécialistes de la perte de cheveux en Turquie</h1>
+              <p class=\"lead\">Prise en charge de votre greffe capillaire par un spécialiste de l'alopécie en Turquie</p>
 
               {# <a href=\"#\" class=\"btn btn-primary btn-lg\">Learn More</a> #}
 
@@ -149,9 +144,8 @@ class __TwigTemplate_8924a46d80cf5bad14742fa446e43fe56aaca5837732a85c819f19aa018
         <div class=\"carousel-item carousel-image-3\">
           <div class=\"container\">
             <div class=\"carousel-caption d-none d-sm-block  mb-5\">
-              <h1 class=\"display-3\">Heading Three</h1>
-              <p class=\"lead\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                quod aliquid inventore vero perspiciatis.</p>
+              <h1 class=\"display-3 white-text\">Les meilleurs spécialistes de la perte de cheveux en Turquie</h1>
+              <p style=\"font-size:18px\" class=\" lead white-text\">Prise en charge de votre greffe capillaire par un spécialiste de l'alopécie en Turquie</p>
               
               {# <a href=\"#\" class=\"btn btn-success btn-lg\">Learn More</a> #}
 

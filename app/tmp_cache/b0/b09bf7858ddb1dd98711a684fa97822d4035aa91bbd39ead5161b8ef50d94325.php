@@ -40,7 +40,7 @@ class __TwigTemplate_85d1be4f34f8192a2af3331e2ff07586c47ac6893cfb993c81f0c5688f2
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
           <h1>Greffe Barbe</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+          <p>traitement des anomalies de barbe</p>
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@ class __TwigTemplate_85d1be4f34f8192a2af3331e2ff07586c47ac6893cfb993c81f0c5688f2
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
           <h1>Greffe Barbe</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+          <p>traitement des anomalies de barbe</p>
         </div>
       </div>
     </div>

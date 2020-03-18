@@ -39,7 +39,7 @@ class __TwigTemplate_f85e50addebf909faa014474546ba3d7721564df3fe55eb0cf26afe565e
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
-          <h1>About Us</h1>
+          <h1>A propos de nous</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
         </div>
       </div>
@@ -64,7 +64,7 @@ class __TwigTemplate_f85e50addebf909faa014474546ba3d7721564df3fe55eb0cf26afe565e
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
-          <h1>About Us</h1>
+          <h1>A propos de nous</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
         </div>
       </div>

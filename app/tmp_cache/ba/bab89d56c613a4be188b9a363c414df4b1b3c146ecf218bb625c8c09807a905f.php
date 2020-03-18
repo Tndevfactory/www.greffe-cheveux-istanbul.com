@@ -87,7 +87,7 @@ class __TwigTemplate_8dc00eb323dfa1ce2ca639fb8402cce174ae0ae17274b5d4c82b9a9e0da
                 </div>
                 <div class=\"col-md-12\">
                   <div class=\"form-group\">
-                    <input type=\"submit\" value=\"Submit\" class=\"btn btn-outline-danger btn-block\">
+                    <input type=\"submit\" value=\"Submit\" class=\"btn btn-outline-blue btn-block\">
                   </div>
                 </div>
               </div>
@@ -164,7 +164,7 @@ class __TwigTemplate_8dc00eb323dfa1ce2ca639fb8402cce174ae0ae17274b5d4c82b9a9e0da
                 </div>
                 <div class=\"col-md-12\">
                   <div class=\"form-group\">
-                    <input type=\"submit\" value=\"Submit\" class=\"btn btn-outline-danger btn-block\">
+                    <input type=\"submit\" value=\"Submit\" class=\"btn btn-outline-blue btn-block\">
                   </div>
                 </div>
               </div>

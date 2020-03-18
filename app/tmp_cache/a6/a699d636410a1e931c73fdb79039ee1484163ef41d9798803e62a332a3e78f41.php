@@ -40,9 +40,25 @@ class __TwigTemplate_a6514c61c8c505ce38f340c7cffad46c265b1ed335deb7d73af80662ee6
 <div class=\"row\">
 <i class=\"\"></i>
 
-             <span  class=\"h3 px-3 white-text text-uppercase \"> Call health Experts </span > 
-             <span> <i class=\"animated tada infinite green-text fas fa-phone-volume fa-2x  \"> </i> </span>
-             <span class=\" h3 pl-2 white-text\"> 00216 55 444 356 </span> 
+             <span  class=\"h3 px-3 white-text text-uppercase \"> Call Hair Experts </span > 
+             <span> <i class=\"animated tada  text-default fas fa-phone-volume fa-2x  \"> </i> </span>
+             <span class=\" h3 pl-2 white-text\"> +262 269 33 87 99 </span> 
+
+
+            <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
+            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
+            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
+           
+            
+
+             
+
+             
+             
+            
+             
+             
+             
  
 </div>
 </div>";
@@ -66,9 +82,25 @@ class __TwigTemplate_a6514c61c8c505ce38f340c7cffad46c265b1ed335deb7d73af80662ee6
 <div class=\"row\">
 <i class=\"\"></i>
 
-             <span  class=\"h3 px-3 white-text text-uppercase \"> Call health Experts </span > 
-             <span> <i class=\"animated tada infinite green-text fas fa-phone-volume fa-2x  \"> </i> </span>
-             <span class=\" h3 pl-2 white-text\"> 00216 55 444 356 </span> 
+             <span  class=\"h3 px-3 white-text text-uppercase \"> Call Hair Experts </span > 
+             <span> <i class=\"animated tada  text-default fas fa-phone-volume fa-2x  \"> </i> </span>
+             <span class=\" h3 pl-2 white-text\"> +262 269 33 87 99 </span> 
+
+
+            <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
+            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
+            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
+           
+            
+
+             
+
+             
+             
+            
+             
+             
+             
  
 </div>
 </div>", "/inc/header.html.twig", "/var/www/tndevfactory/public_html/greffe-cheveux-istanbul.com/app/views/inc/header.html.twig");

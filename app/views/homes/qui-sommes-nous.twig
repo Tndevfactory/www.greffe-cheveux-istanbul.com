@@ -1,0 +1,23 @@
+{% extends 'layout.twig' %}
+{% block meta %}
+      <meta name="title" content="who we are">
+      <meta name="description" content="qui sommes nous ">
+      <meta name="keywords" content="qui somme nous">
+    {% endblock  %}
+{% block head %}
+    <title> QUI SOMMES NOUS </title>
+    <style>
+          
+
+          </style>
+{% endblock  %}
+
+{% block content %}
+
+ {% include('/components/qui_somme_nous/page_header.twig') %}
+ {% include('/components/qui_somme_nous/about_section.twig') %}
+ {% include('/components/qui_somme_nous/icons_boxes.twig') %}
+ {% include('/components/qui_somme_nous/testimonial.twig') %}
+
+{% endblock  %}
+

@@ -40,7 +40,7 @@ class __TwigTemplate_915d47a7526247b2f3392aff1748127d546c1ab23d754cabea0c805bb95
     <div class=\"container\">
       <div class=\"row mb-4\">
         <div class=\"col-md-4\">
-          <div class=\"card bg-danger text-white text-center\">
+          <div class=\"card blue text-white text-center\">
             <div class=\"card-body\">
               <i class=\"fas fa-building fa-3x\"></i>
               <h3>Sample Heading</h3>
@@ -58,7 +58,7 @@ class __TwigTemplate_915d47a7526247b2f3392aff1748127d546c1ab23d754cabea0c805bb95
           </div>
         </div>
         <div class=\"col-md-4\">
-          <div class=\"card bg-danger text-white text-center\">
+          <div class=\"card blue text-white text-center\">
             <div class=\"card-body\">
               <i class=\"fas fa-comments fa-3x\"></i>
               <h3>Sample Heading</h3>
@@ -79,7 +79,7 @@ class __TwigTemplate_915d47a7526247b2f3392aff1748127d546c1ab23d754cabea0c805bb95
           </div>
         </div>
         <div class=\"col-md-4\">
-          <div class=\"card bg-danger text-white text-center\">
+          <div class=\"card blue text-white text-center\">
             <div class=\"card-body\">
               <i class=\"fas fa-credit-card fa-3x\"></i>
               <h3>Sample Heading</h3>
@@ -119,7 +119,7 @@ class __TwigTemplate_915d47a7526247b2f3392aff1748127d546c1ab23d754cabea0c805bb95
     <div class=\"container\">
       <div class=\"row mb-4\">
         <div class=\"col-md-4\">
-          <div class=\"card bg-danger text-white text-center\">
+          <div class=\"card blue text-white text-center\">
             <div class=\"card-body\">
               <i class=\"fas fa-building fa-3x\"></i>
               <h3>Sample Heading</h3>
@@ -137,7 +137,7 @@ class __TwigTemplate_915d47a7526247b2f3392aff1748127d546c1ab23d754cabea0c805bb95
           </div>
         </div>
         <div class=\"col-md-4\">
-          <div class=\"card bg-danger text-white text-center\">
+          <div class=\"card blue text-white text-center\">
             <div class=\"card-body\">
               <i class=\"fas fa-comments fa-3x\"></i>
               <h3>Sample Heading</h3>
@@ -158,7 +158,7 @@ class __TwigTemplate_915d47a7526247b2f3392aff1748127d546c1ab23d754cabea0c805bb95
           </div>
         </div>
         <div class=\"col-md-4\">
-          <div class=\"card bg-danger text-white text-center\">
+          <div class=\"card blue text-white text-center\">
             <div class=\"card-body\">
               <i class=\"fas fa-credit-card fa-3x\"></i>
               <h3>Sample Heading</h3>

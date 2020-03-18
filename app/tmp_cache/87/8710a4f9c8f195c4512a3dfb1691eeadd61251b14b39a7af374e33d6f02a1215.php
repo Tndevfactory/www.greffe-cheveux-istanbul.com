@@ -38,8 +38,8 @@ class __TwigTemplate_39b8b546713b7cc3c0e89ed54433077e45e5fc03141e43cb33a6fea7ce1
 <!-- photo_gallery_section -->
   <section id=\"gallery\" class=\"py-5\">
     <div class=\"container\">
-      <h1 class=\"text-center\">Photo Gallerylang </h1>
-      <p class=\"text-center\">Check out our photos</p>
+      <h1 class=\"text-center\">PHOTOS AVANT APRES </h1>
+      <p class=\"text-center\">Voyez les résultats</p>
       <div class=\"row mb-4\">
         <div class=\"col-md-4\">
           <a href=\"";
@@ -147,8 +147,8 @@ class __TwigTemplate_39b8b546713b7cc3c0e89ed54433077e45e5fc03141e43cb33a6fea7ce1
 <!-- photo_gallery_section -->
   <section id=\"gallery\" class=\"py-5\">
     <div class=\"container\">
-      <h1 class=\"text-center\">Photo Gallerylang </h1>
-      <p class=\"text-center\">Check out our photos</p>
+      <h1 class=\"text-center\">PHOTOS AVANT APRES </h1>
+      <p class=\"text-center\">Voyez les résultats</p>
       <div class=\"row mb-4\">
         <div class=\"col-md-4\">
           <a href=\"{{URLROOT}}/public/img/gallery/gallery1.jpg\" data-toggle=\"lightbox\" data-gallery=\"img-gallery\" data-height=\"560\"

@@ -82,10 +82,10 @@ function contact($lang='',$prm2=''){
       
 }// end method index
 
-function greffe_barbe($prm1='',$prm2=''){
+function greffeBarbe($prm1='',$prm2=''){
 
       $row=['name' => 'default class index method'];
-      Echo $this->twig->render(DS.'homes'.DS.'greffe_barbe.twig', [
+      Echo $this->twig->render(DS.'homes'.DS.'greffe-barbe.twig', [
         
         'urlVar'=>[
             'prm1'=> $prm1,
@@ -96,10 +96,10 @@ function greffe_barbe($prm1='',$prm2=''){
 }// end method index
 
 
-function greffe_cheveux_dhi($prm1='',$prm2=''){
+function greffeCheveuxTurquie($prm1='',$prm2=''){
 
       $row=['name' => 'default class index method'];
-      Echo $this->twig->render(DS.'homes'.DS.'greffe_cheveux_dhi.twig', [
+      Echo $this->twig->render(DS.'homes'.DS.'greffe-cheveux-turquie.twig', [
         
         'urlVar'=>[
             'prm1'=> $prm1,
@@ -110,10 +110,10 @@ function greffe_cheveux_dhi($prm1='',$prm2=''){
 }// end method index
 
 
-function greffe_sourcils($prm1='',$prm2=''){
+function greffeSourcils($prm1='',$prm2=''){
 
       $row=['name' => 'default class index method'];
-      Echo $this->twig->render(DS.'homes'.DS.'greffe_sourcils.twig', [
+      Echo $this->twig->render(DS.'homes'.DS.'greffe-sourcils.twig', [
         
         'urlVar'=>[
             'prm1'=> $prm1,
@@ -139,10 +139,10 @@ function index($prm1='',$prm2=''){
 }// end method index
 
 
-function qui_sommes_nous($prm1='',$prm2=''){
+function quiSommesNous($prm1='',$prm2=''){
 
       $row=['name' => 'default class index method'];
-      Echo $this->twig->render(DS.'homes'.DS.'qui_sommes_nous.twig', [
+      Echo $this->twig->render(DS.'homes'.DS.'qui-sommes-nous.twig', [
         
         'urlVar'=>[
             'prm1'=> $prm1,

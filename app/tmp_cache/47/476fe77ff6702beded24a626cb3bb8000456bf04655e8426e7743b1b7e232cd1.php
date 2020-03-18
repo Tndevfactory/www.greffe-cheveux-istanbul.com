@@ -66,14 +66,14 @@ class __TwigTemplate_77cf3eba66e1ab08454388b50f44f0cea3ac9aa11cf5df7ef6e165c1c02
                       <a class=\"nav-link\" href=\"";
         // line 22
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/greffe_cheveux_dhi\">Greffe Cheveux </a>
+        echo "/homes/greffeCheveuxTurquie\">Greffe Cheveux </a>
                 </li>
 
                 <li class=\"nav-item dropdown\">
                 <a class=\"nav-link\" href=\"";
         // line 26
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/greffe_barbe\">Greffe Barbe </a>
+        echo "/homes/greffeBarbe\">Greffe Barbe </a>
                 </li>
 
 
@@ -81,7 +81,7 @@ class __TwigTemplate_77cf3eba66e1ab08454388b50f44f0cea3ac9aa11cf5df7ef6e165c1c02
                   <a class=\"nav-link\" href=\"";
         // line 31
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/greffe_sourcils\">Greffe Sourcils </a>
+        echo "/homes/greffeSourcils\">Greffe Sourcils </a>
                 </li>
 
                 
@@ -89,7 +89,7 @@ class __TwigTemplate_77cf3eba66e1ab08454388b50f44f0cea3ac9aa11cf5df7ef6e165c1c02
                   <a class=\"nav-link\" href=\"";
         // line 36
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/qui_sommes_nous\">Qui Sommes Nous </a>
+        echo "/homes/quiSommesNous\">Qui Sommes Nous </a>
                 </li> 
                 
                 <li class=\"nav-item\">
@@ -155,21 +155,21 @@ class __TwigTemplate_77cf3eba66e1ab08454388b50f44f0cea3ac9aa11cf5df7ef6e165c1c02
                 </li>
 
                 <li class=\"nav-item\">
-                      <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffe_cheveux_dhi\">Greffe Cheveux </a>
+                      <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffeCheveuxTurquie\">Greffe Cheveux </a>
                 </li>
 
                 <li class=\"nav-item dropdown\">
-                <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffe_barbe\">Greffe Barbe </a>
+                <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffeBarbe\">Greffe Barbe </a>
                 </li>
 
 
                 <li class=\"nav-item\">
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffe_sourcils\">Greffe Sourcils </a>
+                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/greffeSourcils\">Greffe Sourcils </a>
                 </li>
 
                 
                 <li class=\"nav-item\">
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/qui_sommes_nous\">Qui Sommes Nous </a>
+                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/quiSommesNous\">Qui Sommes Nous </a>
                 </li> 
                 
                 <li class=\"nav-item\">
