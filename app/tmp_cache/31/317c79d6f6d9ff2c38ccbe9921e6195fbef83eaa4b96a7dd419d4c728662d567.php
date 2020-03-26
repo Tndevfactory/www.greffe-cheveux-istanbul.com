@@ -36,7 +36,7 @@ class __TwigTemplate_786ad6581ac16c42310821d8b3b6858fefcad0fb1cb0923c221fda412d9
         // line 1
         echo "
 
-<div style=\"background-color:#1A5EA4\" class=\"jumbotron py-4 mb-0 \">
+<div style=\"background-color:#1A5EA4\" class=\"jumbotron py-3 mb-0 \">
 <div class=\"row\">
 <i class=\"\"></i>
 
@@ -49,16 +49,7 @@ class __TwigTemplate_786ad6581ac16c42310821d8b3b6858fefcad0fb1cb0923c221fda412d9
             <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
             <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
            
-            
-
-             
-
-             
-             
-            
-             
-             
-             
+    
  
 </div>
 </div>";
@@ -78,7 +69,7 @@ class __TwigTemplate_786ad6581ac16c42310821d8b3b6858fefcad0fb1cb0923c221fda412d9
     {
         return new Source("
 
-<div style=\"background-color:#1A5EA4\" class=\"jumbotron py-4 mb-0 \">
+<div style=\"background-color:#1A5EA4\" class=\"jumbotron py-3 mb-0 \">
 <div class=\"row\">
 <i class=\"\"></i>
 
@@ -91,16 +82,7 @@ class __TwigTemplate_786ad6581ac16c42310821d8b3b6858fefcad0fb1cb0923c221fda412d9
             <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
             <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
            
-            
-
-             
-
-             
-             
-            
-             
-             
-             
+    
  
 </div>
 </div>", "/inc/header.html.twig", "/var/www/tndevfactory/public_html/touchlink/www.greffe-cheveux-istanbul.com/app/views/inc/header.html.twig");
