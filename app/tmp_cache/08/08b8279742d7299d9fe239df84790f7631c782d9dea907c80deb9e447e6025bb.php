@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* /components/greffe_cheveux/page_header.twig */
-class __TwigTemplate_707bdb0e95a210b2dabe59d2efe1864f45b71536600291ef8df315d98c9dbba3 extends Template
+/* /components/greffe_sourcils/page_header.twig */
+class __TwigTemplate_9852e978b20bcade82fc8a326a9a4988c0e3b2dd6808acefab8368e1608a024b extends Template
 {
     private $source;
     private $macros = [];
@@ -39,7 +39,7 @@ class __TwigTemplate_707bdb0e95a210b2dabe59d2efe1864f45b71536600291ef8df315d98c9
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
-          <h1>Greffe cheveux</h1>
+          <h1>Greffe Sourcils</h1>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ class __TwigTemplate_707bdb0e95a210b2dabe59d2efe1864f45b71536600291ef8df315d98c9
 
     public function getTemplateName()
     {
-        return "/components/greffe_cheveux/page_header.twig";
+        return "/components/greffe_sourcils/page_header.twig";
     }
 
     public function getDebugInfo()
@@ -63,10 +63,10 @@ class __TwigTemplate_707bdb0e95a210b2dabe59d2efe1864f45b71536600291ef8df315d98c9
     <div class=\"container\">
       <div class=\"row\">
         <div class=\"col-md-6 m-auto text-center\">
-          <h1>Greffe cheveux</h1>
+          <h1>Greffe Sourcils</h1>
         </div>
       </div>
     </div>
-  </header>", "/components/greffe_cheveux/page_header.twig", "/var/www/tndevfactory/public_html/touchlink/www.greffe-cheveux-istanbul.com/app/views/components/greffe_cheveux/page_header.twig");
+  </header>", "/components/greffe_sourcils/page_header.twig", "/var/www/tndevfactory/public_html/touchlink/www.greffe-cheveux-istanbul.com/app/views/components/greffe_sourcils/page_header.twig");
     }
 }

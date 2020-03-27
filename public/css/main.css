@@ -6,15 +6,24 @@ body {
 }
 
 .navbar .nav-link {
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
 }
 
-.navbar .nav-item.active {
-  border-left: #444 3px solid;
+.navbar a.nav-link:hover {
+ 
+  border-bottom: 2px solid rgb(11, 146, 224);
+  border-radius: 3%;
 }
+
+.navbar .nav-link:hover a.nav-link{
+    color: #eee;
+  
+}
+
+
 
 .carousel-item {
   height: 580px;
@@ -54,7 +63,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #video-play {

@@ -50,7 +50,7 @@ class __TwigTemplate_df78b6c21354ed628e0b599a31b7763d8ce4de207b0265ec2fbc4a0b739
         $macros = $this->macros;
         // line 5
         echo "     <meta name=\"title\" content=\"Greffe cheveux Turquie, prix implant cheveux turquie\">
-    <meta name=\"description\" content=\"------Greffe cheveux en Turquie : greffe cheveux fue istanbul, greffe DHI Turquie , meilleure clinique  implant cheveux prix pas cher\">
+    <meta name=\"description\" content=\"Greffe cheveux en Turquie : greffe cheveux fue istanbul, greffe DHI Turquie , meilleure clinique  implant cheveux prix pas cher\">
     <meta name=\"keywords\" content=\"greffe,cheveux,istanbul,DHI\">
      
 ";
@@ -105,7 +105,7 @@ class __TwigTemplate_df78b6c21354ed628e0b599a31b7763d8ce4de207b0265ec2fbc4a0b739
 
 {% block meta %}
      <meta name=\"title\" content=\"Greffe cheveux Turquie, prix implant cheveux turquie\">
-    <meta name=\"description\" content=\"------Greffe cheveux en Turquie : greffe cheveux fue istanbul, greffe DHI Turquie , meilleure clinique  implant cheveux prix pas cher\">
+    <meta name=\"description\" content=\"Greffe cheveux en Turquie : greffe cheveux fue istanbul, greffe DHI Turquie , meilleure clinique  implant cheveux prix pas cher\">
     <meta name=\"keywords\" content=\"greffe,cheveux,istanbul,DHI\">
      
 {% endblock  %}

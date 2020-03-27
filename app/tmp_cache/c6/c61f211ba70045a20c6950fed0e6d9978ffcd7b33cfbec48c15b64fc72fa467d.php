@@ -35,7 +35,7 @@ class __TwigTemplate_02042bdcaa44ae41fac7f17c5704b48da30a80a638e5decdc72f01271a6
         $macros = $this->macros;
         // line 1
         echo "<!-- STAFF -->
-  <section id=\"staff\" class=\"py-5 text-center bg-dark text-white\">
+  <section id=\"staff\" class=\"py-5 text-center blue-gradient text-white\">
     <div class=\"container\">
       <h1>Notre Equipe</h1>
       <hr>
@@ -95,7 +95,7 @@ class __TwigTemplate_02042bdcaa44ae41fac7f17c5704b48da30a80a638e5decdc72f01271a6
     public function getSourceContext()
     {
         return new Source("<!-- STAFF -->
-  <section id=\"staff\" class=\"py-5 text-center bg-dark text-white\">
+  <section id=\"staff\" class=\"py-5 text-center blue-gradient text-white\">
     <div class=\"container\">
       <h1>Notre Equipe</h1>
       <hr>

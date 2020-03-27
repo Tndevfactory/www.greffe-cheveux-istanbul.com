@@ -36,7 +36,7 @@ class __TwigTemplate_0d1b0a7c269d328285cc9e69a926d8e882c8e0ae7225b35e4ef6fd6990c
         // line 1
         echo "<!-- NEWSLETTER -->
 <!-- newsletter -->
-  <section id=\"newsletter\" class=\"text-center p-5 bg-dark text-white\">
+  <section id=\"newsletter\" class=\"text-center p-5 blue-gradient text-white\">
     <div class=\"container pb-5 \">
       <div class=\"row\">
         <div class=\"col\">
@@ -86,11 +86,8 @@ class __TwigTemplate_0d1b0a7c269d328285cc9e69a926d8e882c8e0ae7225b35e4ef6fd6990c
                    <div class=\"row \">
                       <div class=\"col-md-6\">
                           <button 
-                              style=\"
-                                margin-top:-4px;
-                               
-                              \" 
-                              class=\"ml-4 btn btn-outline-primary rounded\">
+                              style=\"  margin-top:-4px; \" 
+                              class=\"ml-4 btn blue white-text rounded\">
                               Envoyer
                           </button>
                         
@@ -104,7 +101,7 @@ class __TwigTemplate_0d1b0a7c269d328285cc9e69a926d8e882c8e0ae7225b35e4ef6fd6990c
           <div class=\"row \">
                       <div class=\"col-md-10 ml-3 green-text   \">
                       ";
-        // line 55
+        // line 52
         echo twig_escape_filter($this->env, ($context["register_success"] ?? null), "html", null, true);
         echo "
                   </div>
@@ -128,14 +125,14 @@ class __TwigTemplate_0d1b0a7c269d328285cc9e69a926d8e882c8e0ae7225b35e4ef6fd6990c
 
     public function getDebugInfo()
     {
-        return array (  108 => 55,  77 => 27,  73 => 26,  63 => 19,  59 => 18,  50 => 12,  37 => 1,);
+        return array (  105 => 52,  77 => 27,  73 => 26,  63 => 19,  59 => 18,  50 => 12,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!-- NEWSLETTER -->
 <!-- newsletter -->
-  <section id=\"newsletter\" class=\"text-center p-5 bg-dark text-white\">
+  <section id=\"newsletter\" class=\"text-center p-5 blue-gradient text-white\">
     <div class=\"container pb-5 \">
       <div class=\"row\">
         <div class=\"col\">
@@ -170,11 +167,8 @@ class __TwigTemplate_0d1b0a7c269d328285cc9e69a926d8e882c8e0ae7225b35e4ef6fd6990c
                    <div class=\"row \">
                       <div class=\"col-md-6\">
                           <button 
-                              style=\"
-                                margin-top:-4px;
-                               
-                              \" 
-                              class=\"ml-4 btn btn-outline-primary rounded\">
+                              style=\"  margin-top:-4px; \" 
+                              class=\"ml-4 btn blue white-text rounded\">
                               Envoyer
                           </button>
                         

@@ -47,7 +47,7 @@ class __TwigTemplate_7c529c3eaf9cec255a84a1996080c34927a94145e2a678bfbfa8bdb4eba
           <a href=\"";
         // line 11
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes/qui_sommes_nous\" class=\" z-depth-2 btn btn-outline-blue btn-lg\">En savoir plus </a>
+        echo "/homes/quiSommesNous\" class=\" z-depth-2 btn btn-outline-blue btn-lg\">En savoir plus </a>
          
         </div>
         <div class=\"col-md-6 p-2\">
@@ -89,7 +89,7 @@ class __TwigTemplate_7c529c3eaf9cec255a84a1996080c34927a94145e2a678bfbfa8bdb4eba
           <p>Hair Expert a choisit les meilleurs médecins turcs spécialisés dans la greffe cheveux. Nos médecins partenaires opèrent dans la meilleure clinjque d'Istanbul</p>
          
          
-          <a href=\"{{URLROOT}}/homes/qui_sommes_nous\" class=\" z-depth-2 btn btn-outline-blue btn-lg\">En savoir plus </a>
+          <a href=\"{{URLROOT}}/homes/quiSommesNous\" class=\" z-depth-2 btn btn-outline-blue btn-lg\">En savoir plus </a>
          
         </div>
         <div class=\"col-md-6 p-2\">

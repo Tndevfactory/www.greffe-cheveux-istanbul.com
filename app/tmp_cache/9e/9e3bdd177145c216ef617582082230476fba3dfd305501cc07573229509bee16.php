@@ -35,7 +35,7 @@ class __TwigTemplate_1302b12088e72d6d8457f7c398637c1511b985c6ffef07cb50fa2c4b5a8
         $macros = $this->macros;
         // line 1
         echo "
-<nav  class=\"navbar navbar-expand-lg navbar-light bg-light sticky-top \">
+<nav  class=\"navbar navbar-expand-lg navbar-light py-0 cloudy-knoxville-gradient sticky-top \">
 
             <a class=\"navbar-brand pl-3\" href=\"";
         // line 4
@@ -54,7 +54,7 @@ class __TwigTemplate_1302b12088e72d6d8457f7c398637c1511b985c6ffef07cb50fa2c4b5a8
        
               <ul style=\"\" class=\"navbar-nav pl-5 h5  ml-auto pr-5 mr-4\">
 
-                <li class=\"nav-item active\">
+                <li class=\"nav-item \">
                   <a class=\"nav-link\" href=\"";
         // line 17
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
@@ -134,7 +134,7 @@ class __TwigTemplate_1302b12088e72d6d8457f7c398637c1511b985c6ffef07cb50fa2c4b5a8
     public function getSourceContext()
     {
         return new Source("
-<nav  class=\"navbar navbar-expand-lg navbar-light bg-light sticky-top \">
+<nav  class=\"navbar navbar-expand-lg navbar-light py-0 cloudy-knoxville-gradient sticky-top \">
 
             <a class=\"navbar-brand pl-3\" href=\"{{URLROOT}}/homes\"> <img height=\"80\" width=\"80\" src=\"{{URLROOT}}/public/img/logo/health_expert_logo.png\" class=\"img-fluid\" alt=\"logo Health Experts\">  
                <span class=\"text-capitalize h4 \" > Hair Experts </span> 
@@ -148,7 +148,7 @@ class __TwigTemplate_1302b12088e72d6d8457f7c398637c1511b985c6ffef07cb50fa2c4b5a8
        
               <ul style=\"\" class=\"navbar-nav pl-5 h5  ml-auto pr-5 mr-4\">
 
-                <li class=\"nav-item active\">
+                <li class=\"nav-item \">
                   <a class=\"nav-link\" href=\"{{URLROOT}}/homes\">Home </a>
                 </li>
 

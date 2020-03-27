@@ -34,10 +34,10 @@ class __TwigTemplate_0fb0656141a7e3395b24d34ab10abed56a2bc8248fce80fcaebd7f64813
     {
         $macros = $this->macros;
         // line 1
-        echo "<!-- Footer  fixed-bottom-->
+        echo "<!-- Footer style=\"background-color:#1A5EA4\" fixed-bottom-->
 
 
-<footer style=\"background-color:#1A5EA4\" class=\"footer  mt-auto  py-4 white-text font-small \">
+<footer  class=\"footer cloudy-knoxville-gradient mt-auto  py-4 black-text font-small \">
  
          <div class=\"footer-copyright text-center py-2 white-text\">
 \t\t\t <span class=\"text-muted\"> Copyright &copy; 
@@ -49,12 +49,12 @@ class __TwigTemplate_0fb0656141a7e3395b24d34ab10abed56a2bc8248fce80fcaebd7f64813
         
   </div>
 
- <div class=\"mt-1 text-center\">
+ <div class=\"mt-1 text-center \">
         
-          <a href=\"#\" >   <span class=\"  pl-2 white-text\"> <i class=\" fab fa-facebook-square fa-1x\"></i></span> </a>
-          <a href=\"#\" >   <span class=\"  pl-2 white-text\"><i class=\" fab fa-instagram fa-1x\"></i> </span> </a>
-           <a href=\"#\" >  <span class=\"  pl-2 white-text\"><i class=\" fab fa-youtube fa-1x\"></i> </span> </a>
-            <a href=\"#\" > <span class=\"  pl-2 white-text\"><i class=\" fab fa-snapchat-square fa-1x\"></i>    </span></a>
+          <a href=\"#\" >   <span class=\"  pl-2 black-text\"> <i class=\" fab fa-facebook-square fa-1x\"></i></span> </a>
+          <a href=\"#\" >   <span class=\"  pl-2 black-text\"><i class=\" fab fa-instagram fa-1x\"></i> </span> </a>
+           <a href=\"#\" >  <span class=\"  pl-2 black-text\"><i class=\" fab fa-youtube fa-1x\"></i> </span> </a>
+            <a href=\"#\" > <span class=\"  pl-2 black-text\"><i class=\" fab fa-snapchat-square fa-1x\"></i>    </span></a>
         </div>
 
 </footer>
@@ -79,10 +79,10 @@ class __TwigTemplate_0fb0656141a7e3395b24d34ab10abed56a2bc8248fce80fcaebd7f64813
 
     public function getSourceContext()
     {
-        return new Source("<!-- Footer  fixed-bottom-->
+        return new Source("<!-- Footer style=\"background-color:#1A5EA4\" fixed-bottom-->
 
 
-<footer style=\"background-color:#1A5EA4\" class=\"footer  mt-auto  py-4 white-text font-small \">
+<footer  class=\"footer cloudy-knoxville-gradient mt-auto  py-4 black-text font-small \">
  
          <div class=\"footer-copyright text-center py-2 white-text\">
 \t\t\t <span class=\"text-muted\"> Copyright &copy; 
@@ -94,12 +94,12 @@ class __TwigTemplate_0fb0656141a7e3395b24d34ab10abed56a2bc8248fce80fcaebd7f64813
         
   </div>
 
- <div class=\"mt-1 text-center\">
+ <div class=\"mt-1 text-center \">
         
-          <a href=\"#\" >   <span class=\"  pl-2 white-text\"> <i class=\" fab fa-facebook-square fa-1x\"></i></span> </a>
-          <a href=\"#\" >   <span class=\"  pl-2 white-text\"><i class=\" fab fa-instagram fa-1x\"></i> </span> </a>
-           <a href=\"#\" >  <span class=\"  pl-2 white-text\"><i class=\" fab fa-youtube fa-1x\"></i> </span> </a>
-            <a href=\"#\" > <span class=\"  pl-2 white-text\"><i class=\" fab fa-snapchat-square fa-1x\"></i>    </span></a>
+          <a href=\"#\" >   <span class=\"  pl-2 black-text\"> <i class=\" fab fa-facebook-square fa-1x\"></i></span> </a>
+          <a href=\"#\" >   <span class=\"  pl-2 black-text\"><i class=\" fab fa-instagram fa-1x\"></i> </span> </a>
+           <a href=\"#\" >  <span class=\"  pl-2 black-text\"><i class=\" fab fa-youtube fa-1x\"></i> </span> </a>
+            <a href=\"#\" > <span class=\"  pl-2 black-text\"><i class=\" fab fa-snapchat-square fa-1x\"></i>    </span></a>
         </div>
 
 </footer>

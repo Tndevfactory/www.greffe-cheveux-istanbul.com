@@ -36,18 +36,18 @@ class __TwigTemplate_786ad6581ac16c42310821d8b3b6858fefcad0fb1cb0923c221fda412d9
         // line 1
         echo "
 
-<div style=\"background-color:#1A5EA4\" class=\"jumbotron py-3 mb-0 \">
+<div style=\"background-color:#1A5EA4\" class=\"jumbotron blue-gradient py-2 mb-0 \">
 <div class=\"row\">
 <i class=\"\"></i>
 
-             <span  class=\"h3 px-3 white-text text-uppercase \"> Call Hair Experts </span > 
-             <span> <i class=\"animated tada  text-default fas fa-phone-volume fa-2x  \"> </i> </span>
-             <span class=\" h3 pl-2 white-text\"> +262 269 33 87 99 </span> 
+             <span  class=\"h4 px-3 white-text text-uppercase \"> Call Hair Experts </span > 
+             <span> <i class=\"animated tada fas fa-mobile-alt fa-2x  black-text \"> </i> </span>
+             <span class=\" h4 pl-2 white-text\"> +262 269 33 87 99 </span> 
 
 
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
+            <a href=\"#\" >  <span class=\" h6 pl-2 black-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
+            <a href=\"#\" >  <span class=\" h6 pl-2 black-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
+            <a href=\"#\" >  <span class=\" h6 pl-2 black-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
            
     
  
@@ -69,18 +69,18 @@ class __TwigTemplate_786ad6581ac16c42310821d8b3b6858fefcad0fb1cb0923c221fda412d9
     {
         return new Source("
 
-<div style=\"background-color:#1A5EA4\" class=\"jumbotron py-3 mb-0 \">
+<div style=\"background-color:#1A5EA4\" class=\"jumbotron blue-gradient py-2 mb-0 \">
 <div class=\"row\">
 <i class=\"\"></i>
 
-             <span  class=\"h3 px-3 white-text text-uppercase \"> Call Hair Experts </span > 
-             <span> <i class=\"animated tada  text-default fas fa-phone-volume fa-2x  \"> </i> </span>
-             <span class=\" h3 pl-2 white-text\"> +262 269 33 87 99 </span> 
+             <span  class=\"h4 px-3 white-text text-uppercase \"> Call Hair Experts </span > 
+             <span> <i class=\"animated tada fas fa-mobile-alt fa-2x  black-text \"> </i> </span>
+             <span class=\" h4 pl-2 white-text\"> +262 269 33 87 99 </span> 
 
 
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
-            <a href=\"#\" >  <span class=\" h6 pl-2 white-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
+            <a href=\"#\" >  <span class=\" h6 pl-2 black-text \"> <i class=\"fab fa-facebook-messenger fa-2x\"></i> </span> </a>
+            <a href=\"#\" >  <span class=\" h6 pl-2 black-text\"> <i class=\" far fa-envelope fa-2x\"></i> </span> </a>
+            <a href=\"#\" >  <span class=\" h6 pl-2 black-text\"><i class=\" fab fa-whatsapp fa-2x\"></i></span> </a>
            
     
  
