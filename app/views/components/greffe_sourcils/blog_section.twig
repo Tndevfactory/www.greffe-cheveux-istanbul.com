@@ -52,6 +52,37 @@
             }
           }
           
+
+      #sourcil #imgSourcil{
+          position:relative;
+          background-image:url(https://drive.google.com/uc?export=view&id=1XQR5mZsT_yhYDwqBsM-DYa3Vk7AWP4ck); 
+          height: 350px;
+          width:100%;
+          /*width:100%;*/
+         background-position: 50% 50%;
+         background-repeat: no-repeat;
+         /* background-attachment: fixed;*/
+          background-size: cover;
+          background-color: rgba(0,0,0,.5);
+
+          padding:15px;
+
+          
+          
+        }
+
+       #sourcil #sourcilOverlay{
+           position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.4);
+
+        }
+        
+
+
       </style>
  
 {% endblock  %}
@@ -70,8 +101,8 @@
           </div>
 
         <div class="col-lg-5">
-            <div class="card">
-              <img src="{{URLROOT}}/public/img/sourcils/sourcil3.jpg" alt="" class="img-fluid img-thumbnail card-img-top">
+            <div class="card p-2">
+            <div id="imgSourcil" > <!-- /public/img/sourcils/sourcil1.jpg  --><div id="sourcilOverlay"  > </div> </div> 
               <div class="card-body">
                 <h4 class="card-title text-center">Greffe de sourcil</h4>
               </div>

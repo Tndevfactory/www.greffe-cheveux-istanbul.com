@@ -4,7 +4,8 @@
  {% block style %}   
       <style>
 
-     
+      
+
         #barbe h1{
               font-weight:600;
               color:rgb(0,128,128);
@@ -52,6 +53,36 @@
             }
           }
           
+       #barbe #imgbarbe {
+          position:relative;
+          background-image:url(https://drive.google.com/uc?export=view&id=1xeN-oqLUaXorKTjlBqUEjGz0Q3VGZCiv); 
+          height: 350px;
+          width:100%;
+          /*width:100%;*/
+         background-position: 50% 50%;
+         background-repeat: no-repeat;
+         /* background-attachment: fixed;*/
+          background-size: cover;
+          background-color: rgba(0,0,0,.5);
+
+          padding:15px;
+
+          
+          
+        }
+
+       #barbe #barbeOverlay{
+           position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.4);
+
+        }
+        
+
+
       </style>
  
 {% endblock  %}
@@ -77,12 +108,16 @@
           <li>Des prix très avantageux par rapport aux tarifs en vigueur en France</li>
           </ul></h3>
 
+      <h2>Quel est le nombre d’implants idéal pour une greffe barbe Turquie ? </h2>
+                <p>En moyenne, la greffe de barbe à Istanbul requiert 3000 implants capillaires. Toutefois, le nombre d’implants de barbe varie d’un cas à l’autre. Il dépend du résultat souhaité par le patient, de l’état de la zone de prélèvement ainsi que de la densité des poils de la barbe avant la transplantation capillaire. </p>
+                <p>Le diagnostic effectué à distance et la consultation qui précède la greffe barbe FUE en Turquie permettent de déterminer avec précision le nombre d’implants capillaires adéquat. </p>
           
           </div>
 
         <div class="col-lg-5">
-            <div class="card">
-              <img src="{{URLROOT}}/public/img/barbe/barbe3.jpg" alt="" class="img-fluid img-thumbnail card-img-top">
+            <div class="card p-2" >
+            
+              <div id="imgbarbe" > <div id="barbeOverlay"  > </div> </div> 
               <div class="card-body">
                 <h4 class="card-title text-center">Greffe de barbe</h4>
               </div>

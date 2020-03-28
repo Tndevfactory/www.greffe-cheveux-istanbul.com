@@ -10,6 +10,8 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" /> #}
 
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
@@ -29,5 +31,134 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
   
-<link rel="stylesheet" href="{{URLROOT}}/public/css/main.css"> 
+
+
+<style>
+
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.navbar .nav-link {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar a.nav-link:hover {
+ 
+  border-bottom: 2px solid rgb(11, 146, 224);
+  border-radius: 3%;
+}
+
+.navbar .nav-link:hover a.nav-link{
+    color: #eee;
+  
+}
+
+
+
+.carousel-item {
+  height: 580px;
+}
+
+ 
+.carousel-image-1 {
+  background-image:url(https://drive.google.com/uc?export=view&id=1RNyUhlFJ84k_H8_QfWpXcJnxd65sqZYA); 
+  /*img/showcase/image1.jpg*/
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background-image:url(https://drive.google.com/uc?export=view&id=1XziSn92JmVntkv-mJoYMTBkS4sKmlC7k); 
+  /*img/showcase/image2.jpg*/
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background-image:url(https://drive.google.com/uc?export=view&id=13BiMipQ_e9RSqPbk9zq6J-Muxn1nlWow); 
+   /*img/showcase/image3.jpg*/
+  background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background-image:url(https://drive.google.com/uc?export=view&id=1lMYiUfQuH9lVaQAEOuVu7ewHpJEzGiAC); 
+  /* ../img/home_heading_section/lights.jpg */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background-image:url(https://drive.google.com/uc?export=view&id=11Lz_FKlZIyvSts2LseOYUKZCBkYUPMpp); 
+  /* ../img/video_play_section/media.jpg */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+#page-header {
+  height: 200px;
+    background-image:url(https://drive.google.com/uc?export=view&id=1RNyUhlFJ84k_H8_QfWpXcJnxd65sqZYA); 
+
+  /* ../img/showcase/image1.jpg */
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+.about-img {
+  margin-top: -50px;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+
+</style>
 

@@ -1,8 +1,71 @@
 
-<nav  class="navbar navbar-expand-lg navbar-light py-0 cloudy-knoxville-gradient sticky-top ">
 
-            <a class="navbar-brand pl-3" href="{{URLROOT}}/homes"> <img height="80" width="80" src="{{URLROOT}}/public/img/logo/health_expert_logo.png" class="img-fluid" alt="logo Health Experts">  
-               <span class="text-capitalize h4 " > Hair Experts </span> 
+
+ {% block style %}   
+      <style>
+
+      
+
+      @media(max-width:900px){
+      
+          #barbe h1{
+              font-size:25px;
+              
+            }
+
+          #barbe h2{
+              font-size:20px;
+            }
+
+          #barbe h3{
+              font-size:18px;
+            }
+
+          #barbe p{
+              font-size:16px;
+            }
+          }
+          
+       #greffeNav #health_expert_logo {
+          position:relative;
+          background-image:url(https://drive.google.com/uc?export=view&id=1JHYrI8DUkyAU7PHO7QLhZxzrZq7QMzIS); 
+          height: 60px;
+          width:60px;
+          /*width:100%;*/
+         background-position: 50% 50%;
+         background-repeat: no-repeat;
+         /* background-attachment: fixed;*/
+          background-size: cover;
+          background-color: transparent;
+
+          
+
+          
+          
+        }
+
+       /*#greffeNav #barbeOverlay{
+           position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.4);
+
+        }*/
+        
+
+
+      </style>
+ 
+{% endblock  %}
+
+
+<nav id="greffeNav" class="navbar navbar-expand-lg navbar-light py-0 cloudy-knoxville-gradient sticky-top ">
+
+            <a class="navbar-brand pl-3 py-3" href="{{URLROOT}}/homes"> <div id="health_expert_logo"> <!-- /public/img/logo/health_expert_logo.png  -->
+           
+               <div class="pl-5 ml-1 pt-3 text-capitalize h4 " > Hair Experts </div> </div>
             </a>
         
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyNavbar" >

@@ -17,9 +17,9 @@ define('DB_NAME','u958902108_istanbul');
 // App Root
 define('APPROOT',dirname(dirname(__FILE__)));
 
-//define('URLROOT','http://localhost/touchlink/www.greffe-cheveux-istanbul.com');
+define('URLROOT','http://localhost/touchlink/www.greffe-cheveux-istanbul.com');
 
-define('URLROOT','https://www.greffe-cheveux-istanbul.com');
+//define('URLROOT','https://www.greffe-cheveux-istanbul.com');
 
     define('SITENAME','CH_twig');
     define('LANG','fr');
