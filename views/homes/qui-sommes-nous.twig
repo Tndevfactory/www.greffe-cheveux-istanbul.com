@@ -1,0 +1,24 @@
+{% extends 'layout.twig' %}
+{% block meta %}
+      <meta name="title" content="greffe de cheveux en Turquie ">
+      <meta name="description" content="les meilleurs docteurs en greffe de cheveux spécialisés dans toutes sortes de traitements capillaires, rien que pour vous redonner l'apparence que vous recherchiez. Si vous envisagez une greffe de cheveux en Turquie ">
+      <meta name="keywords" content=" docteurs,,greffe, cheveux spécialisés,traitements capillaires">
+
+    {% endblock  %}
+{% block head %}
+    <title> QUI SOMMES NOUS </title>
+    <style>
+          
+
+          </style>
+{% endblock  %}
+
+{% block content %}
+
+ {% include('/components/qui_somme_nous/page_header.twig') %}
+ {% include('/components/qui_somme_nous/about_section.twig') %}
+ {# {% include('/components/qui_somme_nous/icons_boxes.twig') %} #}
+ {% include('/components/qui_somme_nous/testimonial.twig') %}
+
+{% endblock  %}
+
