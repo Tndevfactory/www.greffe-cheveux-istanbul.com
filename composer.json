@@ -1,0 +1,13 @@
+{
+    "name": "ch/twig",
+    "authors": [
+        {
+            "name": "Tndevfactory",
+            "email": "tndevfactory@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
+
