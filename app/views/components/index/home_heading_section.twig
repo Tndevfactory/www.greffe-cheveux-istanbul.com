@@ -1,14 +1,101 @@
 <!-- home_heading_section -->
-  <section id="home-heading" class="p-5 img-fluid">
+{% block style %}   
+      <style>
+     
+        #home-heading h1{
+              font-weight:600;
+              color:white;
+              font-size:38px;
+              
+                                      
+            }
+
+        #home-heading  {
+          position: relative;
+          min-height: 400px;
+          width: 100%;
+
+          text-align: center;
+          color: #fff;
+          background-image:url(https://drive.google.com/uc?export=view&id=1_7XlapZmdvmloWFxjIqgTtZq61iG_BUF); 
+         
+          /* ../img/home_heading_section/lights.jpg */
+
+          background-attachment: fixed;
+          background-position: 0px -400px;
+          background-repeat: no-repeat;
+          
+        }
+
+       #home-heading .dark-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 155, .4);
+        }
+
+
+      svg {
+        
+        height: 50%;
+        width: 100%;
+        z-index:5;
+        top: 45px;
+        transform:scale(1);
+        
+          margin: auto;
+          position:relative;
+      
+      }
+
+        @media(max-width:900px){
+
+            #home-heading  {
+                        
+                        max-height: 200px;
+                    }
+
+            
+                #home-heading h1{
+                    font-size:30px;
+                    
+                    
+                  }
+
+                #home-headingp{
+                    font-size:23px;
+                  }
+
+                  #home-heading  {
+         
+                  min-height:200px;
+                  }
+          }
+          
+       </style>
+ 
+{% endblock  %}
+
+
+
+  <section id="home-heading" class="pt-5 pb-0">
     <div class="dark-overlay">
       <div class="row">
         <div class="col">
-          <div class="container pt-5">
-            <h1> Commencez maintenant à retrouver vos cheveux</h1>
-            <p class="d-none d-md-block">Votre devis greffe en moins d'une minute</p>
+          <div class="container "  data-aos="zoom-in">
+            <h1 class="pt-3 "> Nous sommes fiers d’apporter à nos patients différentes solutions pour traiter leur calvitie ou leur chute de cheveux.</h1>
           </div>
         </div>
       </div>
     </div>
+    
+    <div class="d-none d-xl-block">
+      <svg viewBox="0 0 1440 319">
+        <path fill="white" fill-opacity="1" d="M 0,32 48,80 C 96,128 192,224 288,224 384,224 480,128 576,90.7 672,53 768,75 864,96 c 96,21 192,43 288,53.3 96,10.7 192,10.7 240,10.7 h 48 v 160 h -48 c -48,0 -144,0 -240,0 -96,0 -192,0 -288,0 -96,0 -192,0 -288,0 -96,0 -192,0 -288,0 -96,0 -192,0 -240,0 H 0 Z"></path>
+      </svg>
+    </div>
+
   </section>
     

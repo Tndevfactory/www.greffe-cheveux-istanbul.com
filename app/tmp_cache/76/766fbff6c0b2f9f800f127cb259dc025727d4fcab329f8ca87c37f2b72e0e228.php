@@ -52,6 +52,31 @@ class __TwigTemplate_ea3a650d9cf2e10ca0da1c45406c0b53ef1844817bae1ec9b4621eb7dd6
             }
 
            #showcase ul{list-style-type: disc;}
+
+
+          .carousel-item {
+            height: 580px;
+          }
+
+          
+          .carousel-image-1 {
+            background-image:url(https://drive.google.com/uc?export=view&id=1RNyUhlFJ84k_H8_QfWpXcJnxd65sqZYA); 
+            /*img/showcase/image1.jpg*/
+            background-size: cover;
+          }
+
+          .carousel-image-2 {
+            background-image:url(https://drive.google.com/uc?export=view&id=1XziSn92JmVntkv-mJoYMTBkS4sKmlC7k); 
+            /*img/showcase/image2.jpg*/
+            background-size: cover;
+          }
+
+          .carousel-image-3 {
+            background-image:url(https://drive.google.com/uc?export=view&id=13BiMipQ_e9RSqPbk9zq6J-Muxn1nlWow); 
+            /*img/showcase/image3.jpg*/
+            background-size: cover;
+          }
+
      
 
       @media(max-width:900px){
@@ -80,7 +105,7 @@ class __TwigTemplate_ea3a650d9cf2e10ca0da1c45406c0b53ef1844817bae1ec9b4621eb7dd6
       <div class=\"carousel-inner\">
         <div class=\"carousel-item carousel-image-1 active\">
           <div class=\"container\">
-            <div class=\"carousel-caption d-none d-sm-block mb-5\">
+            <div class=\"carousel-caption  mb-5\">
               <h1>GREFFE CHEVEUX ISTANBUL  </h1>
               <p>Votre greffe de cheveux réussie dans la meilleure clinique d'Istanbul</p>
 
@@ -90,7 +115,7 @@ class __TwigTemplate_ea3a650d9cf2e10ca0da1c45406c0b53ef1844817bae1ec9b4621eb7dd6
 
         <div class=\"carousel-item carousel-image-2\">
           <div class=\"container\">
-            <div class=\"carousel-caption d-none d-sm-block  mb-5\">
+            <div class=\"carousel-caption  mb-5\">
               <h1>LES MEILLEURS SPECIALISTES EN TURQUIE</h1>
               <p>Prise en charge de votre greffe capillaire par un spécialiste de l'alopécie</p>
 
@@ -101,7 +126,7 @@ class __TwigTemplate_ea3a650d9cf2e10ca0da1c45406c0b53ef1844817bae1ec9b4621eb7dd6
 
         <div class=\"carousel-item carousel-image-3\">
           <div class=\"container\">
-            <div class=\"carousel-caption d-none d-sm-block  mb-5\">
+            <div class=\"carousel-caption  mb-5\">
               <h1>GREFFE CAPILLAIRE ISTANBUL </h1>
               <p>Prise en charge rapide et efficace par des experts  </p>
               
@@ -153,6 +178,31 @@ class __TwigTemplate_ea3a650d9cf2e10ca0da1c45406c0b53ef1844817bae1ec9b4621eb7dd6
             }
 
            #showcase ul{list-style-type: disc;}
+
+
+          .carousel-item {
+            height: 580px;
+          }
+
+          
+          .carousel-image-1 {
+            background-image:url(https://drive.google.com/uc?export=view&id=1RNyUhlFJ84k_H8_QfWpXcJnxd65sqZYA); 
+            /*img/showcase/image1.jpg*/
+            background-size: cover;
+          }
+
+          .carousel-image-2 {
+            background-image:url(https://drive.google.com/uc?export=view&id=1XziSn92JmVntkv-mJoYMTBkS4sKmlC7k); 
+            /*img/showcase/image2.jpg*/
+            background-size: cover;
+          }
+
+          .carousel-image-3 {
+            background-image:url(https://drive.google.com/uc?export=view&id=13BiMipQ_e9RSqPbk9zq6J-Muxn1nlWow); 
+            /*img/showcase/image3.jpg*/
+            background-size: cover;
+          }
+
      
 
       @media(max-width:900px){
@@ -181,7 +231,7 @@ class __TwigTemplate_ea3a650d9cf2e10ca0da1c45406c0b53ef1844817bae1ec9b4621eb7dd6
       <div class=\"carousel-inner\">
         <div class=\"carousel-item carousel-image-1 active\">
           <div class=\"container\">
-            <div class=\"carousel-caption d-none d-sm-block mb-5\">
+            <div class=\"carousel-caption  mb-5\">
               <h1>GREFFE CHEVEUX ISTANBUL  </h1>
               <p>Votre greffe de cheveux réussie dans la meilleure clinique d'Istanbul</p>
 
@@ -191,7 +241,7 @@ class __TwigTemplate_ea3a650d9cf2e10ca0da1c45406c0b53ef1844817bae1ec9b4621eb7dd6
 
         <div class=\"carousel-item carousel-image-2\">
           <div class=\"container\">
-            <div class=\"carousel-caption d-none d-sm-block  mb-5\">
+            <div class=\"carousel-caption  mb-5\">
               <h1>LES MEILLEURS SPECIALISTES EN TURQUIE</h1>
               <p>Prise en charge de votre greffe capillaire par un spécialiste de l'alopécie</p>
 
@@ -202,7 +252,7 @@ class __TwigTemplate_ea3a650d9cf2e10ca0da1c45406c0b53ef1844817bae1ec9b4621eb7dd6
 
         <div class=\"carousel-item carousel-image-3\">
           <div class=\"container\">
-            <div class=\"carousel-caption d-none d-sm-block  mb-5\">
+            <div class=\"carousel-caption  mb-5\">
               <h1>GREFFE CAPILLAIRE ISTANBUL </h1>
               <p>Prise en charge rapide et efficace par des experts  </p>
               

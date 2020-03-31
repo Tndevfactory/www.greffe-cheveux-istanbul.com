@@ -28,6 +28,7 @@ class __TwigTemplate_818603bc58da9fad42357d057da0deed10db30eb56819884714c74aa7c3
             'meta' => [$this, 'block_meta'],
             'head' => [$this, 'block_head'],
             'content' => [$this, 'block_content'],
+            'newsletter_section' => [$this, 'block_newsletter_section'],
         ];
     }
 
@@ -82,9 +83,23 @@ class __TwigTemplate_818603bc58da9fad42357d057da0deed10db30eb56819884714c74aa7c3
         $this->loadTemplate("/components/greffe_barbe/blog_section.twig", "/homes/greffe-barbe.twig", 18)->display($context);
         // line 19
         echo " 
- 
-
+ ";
+        // line 20
+        $this->displayBlock('newsletter_section', $context, $blocks);
+        // line 23
+        echo "
 ";
+    }
+
+    // line 20
+    public function block_newsletter_section($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 21
+        echo "     ";
+        $this->loadTemplate("/components/index/lead_form-fix_bottom.twig", "/homes/greffe-barbe.twig", 21)->display($context);
+        // line 22
+        echo "    ";
     }
 
     public function getTemplateName()
@@ -99,7 +114,7 @@ class __TwigTemplate_818603bc58da9fad42357d057da0deed10db30eb56819884714c74aa7c3
 
     public function getDebugInfo()
     {
-        return array (  84 => 19,  81 => 18,  79 => 17,  76 => 16,  72 => 15,  63 => 8,  59 => 7,  52 => 3,  48 => 2,  37 => 1,);
+        return array (  102 => 22,  99 => 21,  95 => 20,  90 => 23,  88 => 20,  85 => 19,  82 => 18,  80 => 17,  77 => 16,  73 => 15,  64 => 8,  60 => 7,  53 => 3,  49 => 2,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -123,7 +138,9 @@ class __TwigTemplate_818603bc58da9fad42357d057da0deed10db30eb56819884714c74aa7c3
  {% include('/components/greffe_barbe/page_header.twig') %}
  {% include('/components/greffe_barbe/blog_section.twig') %}
  
- 
+ {% block newsletter_section %}
+     {% include('/components/index/lead_form-fix_bottom.twig') %}
+    {% endblock  %}
 
 {% endblock  %}
 

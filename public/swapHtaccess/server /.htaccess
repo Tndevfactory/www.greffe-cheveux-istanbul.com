@@ -1,0 +1,24 @@
+# route every thing to url var 
+<IfModule mod_rewrite.c>
+    Options -Multiviews
+    RewriteEngine On
+    RewriteBase /public/
+	
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule ^greffe-cheveux-Turquie homes/greffeCheveuxTurquie [PT]
+    RewriteRule ^greffe-barbe homes/greffeBarbe [PT]
+    RewriteRule ^greffe-sourcils homes/greffeSourcils [PT]
+    RewriteRule ^qui-sommes-nous homes/quiSommesNous [PT]
+    RewriteRule ^contact homes/contact [PT]
+
+    RewriteRule  ^(.+)$ index.php?url=$1 [QSA,L]
+    # RewriteRule ^greffe-Cheveux-Turquie$ /homes/greffeCheveuxTurquie [QSA,L]
+    # RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+    # RewriteRule ^(.*)$ https://www.greffe-cheveux-istanbul.com/$1 [R,L]
+    # RewriteRule ^greffe-Cheveux-Turquie /homes/greffeCheveuxTurquie [NC,L]
+    
+    RewriteRule ^(.*)$ https://www.greffe-cheveux-istanbul.com/ [NC,L]
+	
+</IfModule>

@@ -38,10 +38,9 @@ class __TwigTemplate_7d78ecd5f416da9cc2ab759bf9eca4632da6100f2e453ba44e4dd5529e9
     {
         $macros = $this->macros;
         // line 1
-        echo "<!-- Developer: Chawki   -->
+        echo "<!-- Developer: Tn dev factory  -->
 <!-- phone: 00216 55 385 474   -->
-<!-- skype: barhoumi_Chawki    -->
-<!-- email: barhoumi.Chawki@gmail.com -->
+<!-- email: tndevfactory@gmail.com -->
 <!-- Mission Statement: Efficiency, precision, respect of deadline, flexible time revision or change characteristics of the website  -->
 
 <!DOCTYPE html>
@@ -53,19 +52,19 @@ class __TwigTemplate_7d78ecd5f416da9cc2ab759bf9eca4632da6100f2e453ba44e4dd5529e9
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     
     ";
-        // line 15
+        // line 14
         $this->displayBlock('meta', $context, $blocks);
-        // line 20
+        // line 19
         echo "
      ";
+        // line 20
+        $this->loadTemplate("./inc/styles.html.twig", "layout.twig", 20)->display($context);
         // line 21
-        $this->loadTemplate("./inc/styles.html.twig", "layout.twig", 21)->display($context);
-        // line 22
         echo "
     ";
-        // line 23
+        // line 22
         $this->displayBlock('head', $context, $blocks);
-        // line 26
+        // line 25
         echo "
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-161994021-1\"></script>
@@ -84,19 +83,21 @@ class __TwigTemplate_7d78ecd5f416da9cc2ab759bf9eca4632da6100f2e453ba44e4dd5529e9
 <body class=\"d-flex flex-column \" >
 
 ";
+        // line 42
+        $this->loadTemplate("/inc/header.html.twig", "layout.twig", 42)->display($context);
         // line 43
-        $this->loadTemplate("/inc/header.html.twig", "layout.twig", 43)->display($context);
+        $this->loadTemplate("/inc/navbar.html.twig", "layout.twig", 43)->display($context);
         // line 44
-        $this->loadTemplate("/inc/navbar.html.twig", "layout.twig", 44)->display($context);
-        // line 45
         echo "
 ";
-        // line 46
+        // line 45
         $this->displayBlock('content', $context, $blocks);
-        // line 58
+        // line 57
         echo "
 
 ";
+        // line 59
+        $this->loadTemplate("./inc/scrollToTop.html.twig", "layout.twig", 59)->display($context);
         // line 60
         $this->loadTemplate("./inc/footer.html.twig", "layout.twig", 60)->display($context);
         // line 61
@@ -114,36 +115,36 @@ class __TwigTemplate_7d78ecd5f416da9cc2ab759bf9eca4632da6100f2e453ba44e4dd5529e9
 </html>";
     }
 
-    // line 15
+    // line 14
     public function block_meta($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 16
+        // line 15
         echo "      <meta name=\"title\" content=\"Greffe cheveux \">
       <meta name=\"description\" content=\"clinique istanbul \">
       <meta name=\"keywords\" content=\"DHI\">
     ";
     }
 
-    // line 23
+    // line 22
     public function block_head($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 24
+        // line 23
         echo "      <title> ";
         echo twig_escape_filter($this->env, ($context["SITENAME"] ?? null), "html", null, true);
         echo "</title>
     ";
     }
 
-    // line 46
+    // line 45
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 47
+        // line 46
         echo "
     ";
-        // line 56
+        // line 55
         echo "
 ";
     }
@@ -170,15 +171,14 @@ class __TwigTemplate_7d78ecd5f416da9cc2ab759bf9eca4632da6100f2e453ba44e4dd5529e9
 
     public function getDebugInfo()
     {
-        return array (  156 => 64,  152 => 63,  147 => 56,  144 => 47,  140 => 46,  133 => 24,  129 => 23,  122 => 16,  118 => 15,  110 => 67,  108 => 63,  105 => 62,  103 => 61,  101 => 60,  97 => 58,  95 => 46,  92 => 45,  90 => 44,  88 => 43,  69 => 26,  67 => 23,  64 => 22,  62 => 21,  59 => 20,  57 => 15,  41 => 1,);
+        return array (  157 => 64,  153 => 63,  148 => 55,  145 => 46,  141 => 45,  134 => 23,  130 => 22,  123 => 15,  119 => 14,  111 => 67,  109 => 63,  106 => 62,  104 => 61,  102 => 60,  100 => 59,  96 => 57,  94 => 45,  91 => 44,  89 => 43,  87 => 42,  68 => 25,  66 => 22,  63 => 21,  61 => 20,  58 => 19,  56 => 14,  41 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<!-- Developer: Chawki   -->
+        return new Source("<!-- Developer: Tn dev factory  -->
 <!-- phone: 00216 55 385 474   -->
-<!-- skype: barhoumi_Chawki    -->
-<!-- email: barhoumi.Chawki@gmail.com -->
+<!-- email: tndevfactory@gmail.com -->
 <!-- Mission Statement: Efficiency, precision, respect of deadline, flexible time revision or change characteristics of the website  -->
 
 <!DOCTYPE html>
@@ -234,6 +234,7 @@ class __TwigTemplate_7d78ecd5f416da9cc2ab759bf9eca4632da6100f2e453ba44e4dd5529e9
 {% endblock  %}
 
 
+{% include('./inc/scrollToTop.html.twig') %}
 {% include('./inc/footer.html.twig') %}
 {% include('./inc/scripts.html.twig') %}
 

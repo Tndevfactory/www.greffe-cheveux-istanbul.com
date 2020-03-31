@@ -33,10 +33,8 @@ class __TwigTemplate_52e2f38c6e2154b533420bfde1bfa1ae7ef20209a0f1a1401ec6ccb22d4
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 7
+        // line 1
         echo "
-
-
 <!-- Bootstrap tooltips -->
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>
 <!-- Bootstrap core JavaScript -->
@@ -48,10 +46,28 @@ class __TwigTemplate_52e2f38c6e2154b533420bfde1bfa1ae7ef20209a0f1a1401ec6ccb22d4
 
  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
 
+<script src=\"https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.6/venobox.min.js\" integrity=\"sha256-vRcA6HQ42C3q7wQlOYINRAMuAPpjAmdORTQ1wv/jwtk=\" crossorigin=\"anonymous\"></script>
+";
+        // line 15
+        echo "<script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>
+<script src=\"https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js\"></script>
 
   <script>
     // Get the current year for the copyright
     \$('#year').text(new Date().getFullYear());
+
+        \$(document).ready(function(){
+      \$('.venobox').venobox(); 
+    });
+
+
+    // aos init
+          AOS.init({
+
+            offset:200,
+            duration:500
+
+          });
 
     // Configure Slider
     \$('.carousel').carousel({
@@ -88,7 +104,7 @@ class __TwigTemplate_52e2f38c6e2154b533420bfde1bfa1ae7ef20209a0f1a1401ec6ccb22d4
     
 
 ";
-        // line 78
+        // line 87
         echo "
 
  
@@ -103,20 +119,12 @@ class __TwigTemplate_52e2f38c6e2154b533420bfde1bfa1ae7ef20209a0f1a1401ec6ccb22d4
 
     public function getDebugInfo()
     {
-        return array (  92 => 78,  37 => 7,);
+        return array (  108 => 87,  52 => 15,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("{# <script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/jquery.min.js\"></script>
-<script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/particles.js\"></script>
-<script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/popper.min.js\"></script>
-<script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/bootstrap.min.js\"></script>
-<script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/mdb.min.js\"></script>
-<script type=\"text/javascript\" src=\"{{URLROOT}}/public/js/ekko-lightbox.min.js\"></script> #}
-
-
-
+        return new Source("
 <!-- Bootstrap tooltips -->
 <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script>
 <!-- Bootstrap core JavaScript -->
@@ -128,10 +136,27 @@ class __TwigTemplate_52e2f38c6e2154b533420bfde1bfa1ae7ef20209a0f1a1401ec6ccb22d4
 
  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js\"></script>
 
+<script src=\"https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.6/venobox.min.js\" integrity=\"sha256-vRcA6HQ42C3q7wQlOYINRAMuAPpjAmdORTQ1wv/jwtk=\" crossorigin=\"anonymous\"></script>
+{# animate on scroll js#}
+<script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>
+<script src=\"https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js\"></script>
 
   <script>
     // Get the current year for the copyright
     \$('#year').text(new Date().getFullYear());
+
+        \$(document).ready(function(){
+      \$('.venobox').venobox(); 
+    });
+
+
+    // aos init
+          AOS.init({
+
+            offset:200,
+            duration:500
+
+          });
 
     // Configure Slider
     \$('.carousel').carousel({

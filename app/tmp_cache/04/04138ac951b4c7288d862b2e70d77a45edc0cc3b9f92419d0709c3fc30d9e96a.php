@@ -41,12 +41,23 @@ class __TwigTemplate_f7fef4742ddba654dc10c06b78e1e98adaae1d6577a8daebee6136a9485
  ";
         // line 4
         $this->displayBlock('style', $context, $blocks);
-        // line 89
+        // line 108
         echo "
 
 
   <section id=\"barbe\" class=\"py-3\">
    <div class=\"container\">
+
+        <nav aria-label=\"breadcrumb\">
+          <ol class=\"breadcrumb \">
+            <li class=\"breadcrumb-item\"><a href=\"";
+        // line 116
+        echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
+        echo "\">Accueil</a></li>
+            <li class=\"breadcrumb-item\"><a href=\"#\">Greffe Barbe</a></li>
+            <li class=\"breadcrumb-item active\">Contenu</li>
+          </ol>
+        </nav>
 
       <div class=\"row\">
         <div class=\"col-lg-7\">
@@ -83,10 +94,10 @@ class __TwigTemplate_f7fef4742ddba654dc10c06b78e1e98adaae1d6577a8daebee6136a9485
           id=\"ff\" 
           action=\"#\" 
           method=\"post\" 
-          class=\" box text-center form winter-neva-gradient  my-3 p-3 z-depth-1 \"
+          class=\" box text-center form blue-gradient  my-3 p-3 z-depth-1 \"
           >
                  
-                 <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
+                 <h4 class=\"text-center white-text mb-4 \" >Demander un devis </h4>
                  <br>
                      <div class=\"input-group mb-3\">
                         <div class=\"input-group-prepend\">
@@ -155,7 +166,7 @@ class __TwigTemplate_f7fef4742ddba654dc10c06b78e1e98adaae1d6577a8daebee6136a9485
 
 
       </div> ";
-        // line 202
+        // line 229
         echo "
     </div>
   </section>";
@@ -172,50 +183,38 @@ class __TwigTemplate_f7fef4742ddba654dc10c06b78e1e98adaae1d6577a8daebee6136a9485
 
         #barbe h1{
               font-weight:600;
-              color:rgb(0,128,128);
+              color:#0099cc;
               font-size:33px;
                                       
             }
 
           #barbe h2{
               font-weight:600;
-              color:rgb(0,139,139);
+              color:#00ace6;
               font-size:28px;
             }
 
           #barbe h3{
               font-weight:600;
-              color:rgb(32,178,170);
+              color:#00bfff;
               font-size:24px;
             }
 
           #barbe p{
                 color:#010203;
                font-size:1rem;
+               padding-left:10px;
             }
 
-           #barbe ul{list-style-type: disc;}
+           #barbe ul{
+             
+            list-style-type: none;
+            list-style-image: url(https://drive.google.com/uc?export=view&id=139xudGyOapAvQJv2jqMhm6gQkpkRr1iJ);
+
+           }
      
 
-      @media(max-width:900px){
-      
-          #barbe h1{
-              font-size:25px;
-              
-            }
-
-          #barbe h2{
-              font-size:20px;
-            }
-
-          #barbe h3{
-              font-size:18px;
-            }
-
-          #barbe p{
-              font-size:16px;
-            }
-          }
+    
           
        #barbe #imgbarbe {
           position:relative;
@@ -245,7 +244,38 @@ class __TwigTemplate_f7fef4742ddba654dc10c06b78e1e98adaae1d6577a8daebee6136a9485
 
         }
         
+       #barbe .breadcrumb-item a{
+                    color:rgb(0,128,128);
+                    
+                  }
 
+        #barbe  ul li:before {
+               /* display: block;
+                content: url(https://drive.google.com/uc?export=view&id=139xudGyOapAvQJv2jqMhm6gQkpkRr1iJ);
+                position: absolute;
+                left: 0;
+                top: 1px;*/
+              }
+
+      @media(max-width:900px){
+          
+              #barbe h1{
+                  font-size:25px;
+                  
+                }
+
+              #barbe h2{
+                  font-size:20px;
+                }
+
+              #barbe h3{
+                  font-size:18px;
+                }
+
+              #barbe p{
+                  font-size:16px;
+                }
+              }
 
       </style>
  
@@ -257,9 +287,14 @@ class __TwigTemplate_f7fef4742ddba654dc10c06b78e1e98adaae1d6577a8daebee6136a9485
         return "/components/greffe_barbe/blog_section.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  165 => 4,  159 => 202,  45 => 89,  43 => 4,  38 => 1,);
+        return array (  176 => 4,  170 => 229,  55 => 116,  45 => 108,  43 => 4,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -274,50 +309,38 @@ class __TwigTemplate_f7fef4742ddba654dc10c06b78e1e98adaae1d6577a8daebee6136a9485
 
         #barbe h1{
               font-weight:600;
-              color:rgb(0,128,128);
+              color:#0099cc;
               font-size:33px;
                                       
             }
 
           #barbe h2{
               font-weight:600;
-              color:rgb(0,139,139);
+              color:#00ace6;
               font-size:28px;
             }
 
           #barbe h3{
               font-weight:600;
-              color:rgb(32,178,170);
+              color:#00bfff;
               font-size:24px;
             }
 
           #barbe p{
                 color:#010203;
                font-size:1rem;
+               padding-left:10px;
             }
 
-           #barbe ul{list-style-type: disc;}
+           #barbe ul{
+             
+            list-style-type: none;
+            list-style-image: url(https://drive.google.com/uc?export=view&id=139xudGyOapAvQJv2jqMhm6gQkpkRr1iJ);
+
+           }
      
 
-      @media(max-width:900px){
-      
-          #barbe h1{
-              font-size:25px;
-              
-            }
-
-          #barbe h2{
-              font-size:20px;
-            }
-
-          #barbe h3{
-              font-size:18px;
-            }
-
-          #barbe p{
-              font-size:16px;
-            }
-          }
+    
           
        #barbe #imgbarbe {
           position:relative;
@@ -347,7 +370,38 @@ class __TwigTemplate_f7fef4742ddba654dc10c06b78e1e98adaae1d6577a8daebee6136a9485
 
         }
         
+       #barbe .breadcrumb-item a{
+                    color:rgb(0,128,128);
+                    
+                  }
 
+        #barbe  ul li:before {
+               /* display: block;
+                content: url(https://drive.google.com/uc?export=view&id=139xudGyOapAvQJv2jqMhm6gQkpkRr1iJ);
+                position: absolute;
+                left: 0;
+                top: 1px;*/
+              }
+
+      @media(max-width:900px){
+          
+              #barbe h1{
+                  font-size:25px;
+                  
+                }
+
+              #barbe h2{
+                  font-size:20px;
+                }
+
+              #barbe h3{
+                  font-size:18px;
+                }
+
+              #barbe p{
+                  font-size:16px;
+                }
+              }
 
       </style>
  
@@ -357,6 +411,14 @@ class __TwigTemplate_f7fef4742ddba654dc10c06b78e1e98adaae1d6577a8daebee6136a9485
 
   <section id=\"barbe\" class=\"py-3\">
    <div class=\"container\">
+
+        <nav aria-label=\"breadcrumb\">
+          <ol class=\"breadcrumb \">
+            <li class=\"breadcrumb-item\"><a href=\"{{URLROOT}}\">Accueil</a></li>
+            <li class=\"breadcrumb-item\"><a href=\"#\">Greffe Barbe</a></li>
+            <li class=\"breadcrumb-item active\">Contenu</li>
+          </ol>
+        </nav>
 
       <div class=\"row\">
         <div class=\"col-lg-7\">
@@ -393,10 +455,10 @@ class __TwigTemplate_f7fef4742ddba654dc10c06b78e1e98adaae1d6577a8daebee6136a9485
           id=\"ff\" 
           action=\"#\" 
           method=\"post\" 
-          class=\" box text-center form winter-neva-gradient  my-3 p-3 z-depth-1 \"
+          class=\" box text-center form blue-gradient  my-3 p-3 z-depth-1 \"
           >
                  
-                 <h4 class=\"text-center  mb-4 \" >Demander un devis </h4>
+                 <h4 class=\"text-center white-text mb-4 \" >Demander un devis </h4>
                  <br>
                      <div class=\"input-group mb-3\">
                         <div class=\"input-group-prepend\">

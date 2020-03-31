@@ -25,10 +25,14 @@
           {% include('/components/index/lead_form_float.twig') %}
     {% endblock  %}
 
-    {% block lead_form_fix %} 
+    {# {% block lead_form_fix %} 
           {% include('/components/index/lead_form_fix.twig') %}
-    {% endblock  %}
+    {% endblock  %} #}
     
+    {% block home_text_intro %}
+         {% include('/components/index/home_text_intro.twig') %}
+    {% endblock  %}
+
     {% block home_icon_section %}
         <div class="container ">
          {% include('/components/index/home_icon_section.twig') %}
@@ -39,25 +43,49 @@
         {% include('/components/index/home_heading_section.twig') %}
     {% endblock  %}
 
-    {% block info_section %}
+    {# {% block info_section %}
       <div class="container ">
         {% include('/components/index/info_section.twig') %}
       </div>
-    {% endblock  %}
+    {% endblock  %} #}
 
-    {% block video_play_section %}
+    {# {% block video_play_section %}
     {% include('/components/index/video_play_section.twig') %}
-    {% endblock  %}
+    {% endblock  %} #}
 
-    {% block photo_gallery_section %}
+     {% block photo_gallery_section %}
       <div class="container ">
         {% include('/components/index/photo_gallery_section.twig') %}
       </div>
+    {% endblock  %} 
+
+
+    {% block home_heading_section2 %}
+        {% include('/components/index/home_heading_section2.twig') %}
+    {% endblock  %}
+    
+    
+    {% block video_gallery_section %}
+      <div class="container ">
+        {% include('/components/index/video_play_gallery_section.twig') %}
+      </div>
+    {% endblock  %} 
+
+    {# {% block home_video_ghost %}
+         {% include('/components/index/videoGalleryG-host.twig') %}
+    {% endblock  %} #}
+
+    {% block home_text_outro %}
+         {% include('/components/index/home_text_outro.twig') %}
     {% endblock  %}
 
     {% block newsletter_section %}
-      {% include('/components/index/newsletter_section.twig') %}
+     {% include('/components/index/lead_form-fix_bottom.twig') %}
     {% endblock  %}
+
+    {# {% block lead_form-fix_bottom %}
+      {% include('/components/index/lead_form-fix_bottom.twig') %}
+    {% endblock  %} #}
 
 
 {% endblock  %}

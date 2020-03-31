@@ -36,85 +36,76 @@ class __TwigTemplate_1302b12088e72d6d8457f7c398637c1511b985c6ffef07cb50fa2c4b5a8
         $macros = $this->macros;
         // line 1
         echo "
-
-
- ";
-        // line 4
+";
+        // line 2
         $this->displayBlock('style', $context, $blocks);
-        // line 62
+        // line 65
         echo "
+<section id=\"greffenavbar\" class=\"sticky-top\" >
 
-<nav id=\"greffeNav\" class=\"navbar navbar-expand-lg navbar-light py-0 cloudy-knoxville-gradient sticky-top \">
+  <nav id=\"greffeNav\" class=\"navbar navbar-expand-lg navbar-light cloudy-knoxville-gradient  \">
 
-            <a class=\"navbar-brand pl-3 py-3\" href=\"";
-        // line 66
+            <a class=\"navbar-brand\" href=\"";
+        // line 70
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
-        echo "/homes\"> <div id=\"health_expert_logo\"> <!-- /public/img/logo/health_expert_logo.png  -->
-           
-               <div class=\"pl-5 ml-1 pt-3 text-capitalize h4 \" > Hair Experts </div> </div>
+        echo "\">
+              <img src=\"https://drive.google.com/uc?export=view&id=1JHYrI8DUkyAU7PHO7QLhZxzrZq7QMzIS\" />
+               <!-- /public/img/logo/health_expert_logo.png  -->           
+              <span> Hair Experts </span>
             </a>
-        
+          
             <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#MyNavbar\" >
               <span class=\"navbar-toggler-icon\"></span>
             </button>
- 
-        <div class=\"collapse navbar-collapse\" id=\"MyNavbar\">
-       
-              <ul style=\"\" class=\"navbar-nav pl-5 h5  ml-auto pr-5 mr-4\">
-
-                <li class=\"nav-item \">
-                  <a class=\"nav-link\" href=\"";
-        // line 80
+  
+          <div class=\"collapse navbar-collapse\" id=\"MyNavbar\">
+                <ul  class=\"navbar-nav  ml-auto mr-5\">
+                    <li class=\"nav-item \">
+                      <a class=\"nav-link\" href=\"";
+        // line 83
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "\">Accueil</a>
-                </li>
+                    </li>
 
-                <li class=\"nav-item\">
-                      <a class=\"nav-link\" href=\"";
-        // line 84
+                    <li class=\"nav-item\">
+                          <a class=\"nav-link\" href=\"";
+        // line 87
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/greffe-cheveux-Turquie\">Greffe Cheveux </a>
-                </li>
+                    </li>
 
-                <li class=\"nav-item dropdown\">
-                <a class=\"nav-link\" href=\"";
-        // line 88
+                    <li class=\"nav-item dropdown\">
+                    <a class=\"nav-link\" href=\"";
+        // line 91
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/greffe-barbe\">Greffe Barbe </a>
-                </li>
+                    </li>
 
-
-                <li class=\"nav-item\">
-                  <a class=\"nav-link\" href=\"";
-        // line 93
+                    <li class=\"nav-item\">
+                      <a class=\"nav-link\" href=\"";
+        // line 95
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/greffe-sourcils\">Greffe Sourcils </a>
-                </li>
-
-                
-                <li class=\"nav-item\">
-                  <a class=\"nav-link\" href=\"";
-        // line 98
+                    </li>
+                    
+                    <li class=\"nav-item\">
+                      <a class=\"nav-link\" href=\"";
+        // line 99
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/qui-sommes-nous\">Qui Sommes Nous </a>
-                </li> 
-                
-                <li class=\"nav-item\">
-                  <a class=\"nav-link\" href=\"";
-        // line 102
+                    </li> 
+                    
+                    <li class=\"nav-item\">
+                      <a class=\"nav-link\" href=\"";
+        // line 103
         echo twig_escape_filter($this->env, ($context["URLROOT"] ?? null), "html", null, true);
         echo "/contact\">Contact </a>
-                </li>
-
-                ";
-        // line 112
-        echo "
+                    </li>
             </div>
-        
+  
+  </nav>
 
-
-</nav>
-
+</section>
 
 
 
@@ -124,64 +115,69 @@ class __TwigTemplate_1302b12088e72d6d8457f7c398637c1511b985c6ffef07cb50fa2c4b5a8
 ";
     }
 
-    // line 4
+    // line 2
     public function block_style($context, array $blocks = [])
     {
         $macros = $this->macros;
         echo "   
       <style>
 
-      
+     
+        #greffenavbar nav > a {
+             margin-left:35px;
+             
+                            
+            }
+        #greffenavbar nav a span {
+             font-weight:550;
+             color:#1A5BAC;
+             font-size:33px;
+            
+                            
+            }
 
-      @media(max-width:900px){
-      
-          #barbe h1{
-              font-size:25px;
+        #greffenavbar nav a img {
+             height:60px;
+             width:60px;
+                       
+                            
+            }
+
+        #greffenavbar .navbar-nav li {
+             min-height:75px;
+             line-height:2.5rem;
+                            
+            }
+
+        #greffenavbar .navbar-nav li a {
+              font-weight:550;
+              color:#1A5BAC;
+              font-size:20px;
               
             }
 
-          #barbe h2{
-              font-size:20px;
+        #greffenavbar .navbar-nav li a:hover {
+             
+             text-decoration: underline;
+             text-decoration-color: steelblue;
+             text-decoration-style: double;
+              
             }
 
-          #barbe h3{
+
+        @media(max-width:1200px){
+
+             #greffenavbar .navbar-nav li a {
+              font-weight:550;
+              color:#1A5BAC;
               font-size:18px;
+              line-height:1.1rem;
+              
             }
 
-          #barbe p{
-              font-size:16px;
+            
+
             }
-          }
-          
-       #greffeNav #health_expert_logo {
-          position:relative;
-          background-image:url(https://drive.google.com/uc?export=view&id=1JHYrI8DUkyAU7PHO7QLhZxzrZq7QMzIS); 
-          height: 60px;
-          width:60px;
-          /*width:100%;*/
-         background-position: 50% 50%;
-         background-repeat: no-repeat;
-         /* background-attachment: fixed;*/
-          background-size: cover;
-          background-color: transparent;
-
-          
-
-          
-          
-        }
-
-       /*#greffeNav #barbeOverlay{
-           position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: rgba(0, 0, 0, 0.4);
-
-        }*/
-        
-
 
       </style>
  
@@ -200,129 +196,120 @@ class __TwigTemplate_1302b12088e72d6d8457f7c398637c1511b985c6ffef07cb50fa2c4b5a8
 
     public function getDebugInfo()
     {
-        return array (  128 => 4,  111 => 112,  105 => 102,  98 => 98,  90 => 93,  82 => 88,  75 => 84,  68 => 80,  51 => 66,  45 => 62,  43 => 4,  38 => 1,);
+        return array (  119 => 2,  101 => 103,  94 => 99,  87 => 95,  80 => 91,  73 => 87,  66 => 83,  50 => 70,  43 => 65,  41 => 2,  38 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("
-
-
- {% block style %}   
+{% block style %}   
       <style>
 
-      
+     
+        #greffenavbar nav > a {
+             margin-left:35px;
+             
+                            
+            }
+        #greffenavbar nav a span {
+             font-weight:550;
+             color:#1A5BAC;
+             font-size:33px;
+            
+                            
+            }
 
-      @media(max-width:900px){
-      
-          #barbe h1{
-              font-size:25px;
+        #greffenavbar nav a img {
+             height:60px;
+             width:60px;
+                       
+                            
+            }
+
+        #greffenavbar .navbar-nav li {
+             min-height:75px;
+             line-height:2.5rem;
+                            
+            }
+
+        #greffenavbar .navbar-nav li a {
+              font-weight:550;
+              color:#1A5BAC;
+              font-size:20px;
               
             }
 
-          #barbe h2{
-              font-size:20px;
+        #greffenavbar .navbar-nav li a:hover {
+             
+             text-decoration: underline;
+             text-decoration-color: steelblue;
+             text-decoration-style: double;
+              
             }
 
-          #barbe h3{
+
+        @media(max-width:1200px){
+
+             #greffenavbar .navbar-nav li a {
+              font-weight:550;
+              color:#1A5BAC;
               font-size:18px;
+              line-height:1.1rem;
+              
             }
 
-          #barbe p{
-              font-size:16px;
+            
+
             }
-          }
-          
-       #greffeNav #health_expert_logo {
-          position:relative;
-          background-image:url(https://drive.google.com/uc?export=view&id=1JHYrI8DUkyAU7PHO7QLhZxzrZq7QMzIS); 
-          height: 60px;
-          width:60px;
-          /*width:100%;*/
-         background-position: 50% 50%;
-         background-repeat: no-repeat;
-         /* background-attachment: fixed;*/
-          background-size: cover;
-          background-color: transparent;
-
-          
-
-          
-          
-        }
-
-       /*#greffeNav #barbeOverlay{
-           position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: rgba(0, 0, 0, 0.4);
-
-        }*/
-        
-
 
       </style>
  
 {% endblock  %}
 
+<section id=\"greffenavbar\" class=\"sticky-top\" >
 
-<nav id=\"greffeNav\" class=\"navbar navbar-expand-lg navbar-light py-0 cloudy-knoxville-gradient sticky-top \">
+  <nav id=\"greffeNav\" class=\"navbar navbar-expand-lg navbar-light cloudy-knoxville-gradient  \">
 
-            <a class=\"navbar-brand pl-3 py-3\" href=\"{{URLROOT}}/homes\"> <div id=\"health_expert_logo\"> <!-- /public/img/logo/health_expert_logo.png  -->
-           
-               <div class=\"pl-5 ml-1 pt-3 text-capitalize h4 \" > Hair Experts </div> </div>
+            <a class=\"navbar-brand\" href=\"{{URLROOT}}\">
+              <img src=\"https://drive.google.com/uc?export=view&id=1JHYrI8DUkyAU7PHO7QLhZxzrZq7QMzIS\" />
+               <!-- /public/img/logo/health_expert_logo.png  -->           
+              <span> Hair Experts </span>
             </a>
-        
+          
             <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#MyNavbar\" >
               <span class=\"navbar-toggler-icon\"></span>
             </button>
- 
-        <div class=\"collapse navbar-collapse\" id=\"MyNavbar\">
-       
-              <ul style=\"\" class=\"navbar-nav pl-5 h5  ml-auto pr-5 mr-4\">
+  
+          <div class=\"collapse navbar-collapse\" id=\"MyNavbar\">
+                <ul  class=\"navbar-nav  ml-auto mr-5\">
+                    <li class=\"nav-item \">
+                      <a class=\"nav-link\" href=\"{{URLROOT}}\">Accueil</a>
+                    </li>
 
-                <li class=\"nav-item \">
-                  <a class=\"nav-link\" href=\"{{URLROOT}}\">Accueil</a>
-                </li>
+                    <li class=\"nav-item\">
+                          <a class=\"nav-link\" href=\"{{URLROOT}}/greffe-cheveux-Turquie\">Greffe Cheveux </a>
+                    </li>
 
-                <li class=\"nav-item\">
-                      <a class=\"nav-link\" href=\"{{URLROOT}}/greffe-cheveux-Turquie\">Greffe Cheveux </a>
-                </li>
+                    <li class=\"nav-item dropdown\">
+                    <a class=\"nav-link\" href=\"{{URLROOT}}/greffe-barbe\">Greffe Barbe </a>
+                    </li>
 
-                <li class=\"nav-item dropdown\">
-                <a class=\"nav-link\" href=\"{{URLROOT}}/greffe-barbe\">Greffe Barbe </a>
-                </li>
-
-
-                <li class=\"nav-item\">
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/greffe-sourcils\">Greffe Sourcils </a>
-                </li>
-
-                
-                <li class=\"nav-item\">
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/qui-sommes-nous\">Qui Sommes Nous </a>
-                </li> 
-                
-                <li class=\"nav-item\">
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/contact\">Contact </a>
-                </li>
-
-                {# <li class=\"nav-item d-flex\">
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/language/ar\">arabic </a>
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/language/fr\">french </a>
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/language/en\">english</a>
-                  <a class=\"nav-link\" href=\"{{URLROOT}}/homes/language/en\">{{lang}}----</a>
-                  
-                </li> #}
-
+                    <li class=\"nav-item\">
+                      <a class=\"nav-link\" href=\"{{URLROOT}}/greffe-sourcils\">Greffe Sourcils </a>
+                    </li>
+                    
+                    <li class=\"nav-item\">
+                      <a class=\"nav-link\" href=\"{{URLROOT}}/qui-sommes-nous\">Qui Sommes Nous </a>
+                    </li> 
+                    
+                    <li class=\"nav-item\">
+                      <a class=\"nav-link\" href=\"{{URLROOT}}/contact\">Contact </a>
+                    </li>
             </div>
-        
+  
+  </nav>
 
-
-</nav>
-
+</section>
 
 
 

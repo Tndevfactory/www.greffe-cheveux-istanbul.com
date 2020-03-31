@@ -1,11 +1,3 @@
-{# <script type="text/javascript" src="{{URLROOT}}/public/js/jquery.min.js"></script>
-<script type="text/javascript" src="{{URLROOT}}/public/js/particles.js"></script>
-<script type="text/javascript" src="{{URLROOT}}/public/js/popper.min.js"></script>
-<script type="text/javascript" src="{{URLROOT}}/public/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="{{URLROOT}}/public/js/mdb.min.js"></script>
-<script type="text/javascript" src="{{URLROOT}}/public/js/ekko-lightbox.min.js"></script> #}
-
-
 
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
@@ -18,10 +10,27 @@
 
  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.6/venobox.min.js" integrity="sha256-vRcA6HQ42C3q7wQlOYINRAMuAPpjAmdORTQ1wv/jwtk=" crossorigin="anonymous"></script>
+{# animate on scroll js#}
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+        $(document).ready(function(){
+      $('.venobox').venobox(); 
+    });
+
+
+    // aos init
+          AOS.init({
+
+            offset:200,
+            duration:500
+
+          });
 
     // Configure Slider
     $('.carousel').carousel({

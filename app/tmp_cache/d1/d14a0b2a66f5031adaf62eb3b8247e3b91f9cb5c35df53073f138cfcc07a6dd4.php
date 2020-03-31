@@ -28,6 +28,7 @@ class __TwigTemplate_df78b6c21354ed628e0b599a31b7763d8ce4de207b0265ec2fbc4a0b739
             'meta' => [$this, 'block_meta'],
             'head' => [$this, 'block_head'],
             'content' => [$this, 'block_content'],
+            'newsletter_section' => [$this, 'block_newsletter_section'],
         ];
     }
 
@@ -79,8 +80,22 @@ class __TwigTemplate_df78b6c21354ed628e0b599a31b7763d8ce4de207b0265ec2fbc4a0b739
         echo " ";
         $this->loadTemplate("/components/greffe_cheveux/blog_section.twig", "/homes/greffe-cheveux-turquie.twig", 19)->display($context);
         // line 20
+        echo " ";
+        $this->displayBlock('newsletter_section', $context, $blocks);
+        // line 23
         echo "
 ";
+    }
+
+    // line 20
+    public function block_newsletter_section($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 21
+        echo "     ";
+        $this->loadTemplate("/components/index/lead_form-fix_bottom.twig", "/homes/greffe-cheveux-turquie.twig", 21)->display($context);
+        // line 22
+        echo "    ";
     }
 
     public function getTemplateName()
@@ -95,7 +110,7 @@ class __TwigTemplate_df78b6c21354ed628e0b599a31b7763d8ce4de207b0265ec2fbc4a0b739
 
     public function getDebugInfo()
     {
-        return array (  82 => 20,  79 => 19,  77 => 18,  74 => 17,  70 => 16,  64 => 12,  60 => 11,  52 => 5,  48 => 4,  37 => 1,);
+        return array (  98 => 22,  95 => 21,  91 => 20,  86 => 23,  83 => 20,  80 => 19,  78 => 18,  75 => 17,  71 => 16,  65 => 12,  61 => 11,  53 => 5,  49 => 4,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -119,6 +134,9 @@ class __TwigTemplate_df78b6c21354ed628e0b599a31b7763d8ce4de207b0265ec2fbc4a0b739
 
  {% include('/components/greffe_cheveux/page_header.twig') %}
  {% include('/components/greffe_cheveux/blog_section.twig') %}
+ {% block newsletter_section %}
+     {% include('/components/index/lead_form-fix_bottom.twig') %}
+    {% endblock  %}
 
 {% endblock  %}
 

@@ -47,7 +47,11 @@ form#lead_form_float {
             background: rgb(2,0,36);
             background: linear-gradient(55deg, rgba(2,0,76,1) 3%, rgba(9,9,121,1) 31%, rgba(25,195,229,1) 90%);
             color:white;
-            border: 1px solid grey; }
+            border: 1px solid grey; 
+            background-image:url(https://drive.google.com/uc?export=view&id=1PoS0Ca36DZi3F2hibDNY_YZQ5ttIFQrt); 
+         
+            
+            }
 
   #btnFormindex2:hover{
   background: rgba(45,125,190,1);
@@ -57,7 +61,7 @@ form#lead_form_float {
 <section style=\"position:relative\">
 
           <form  id=\"lead_form_float\" action=\"#\" method=\"post\" 
-          class=\" my-0 p-3 text-center d-none d-xl-block  z-depth-3 \">
+          class=\" box my-0 p-3 text-center d-none d-xl-block  z-depth-3 \">
 
             <h4 class=\"text-center  mb-3\">Demander un devis </h4><br>
 
@@ -103,14 +107,17 @@ form#lead_form_float {
               <button 
                   id=\"btnFormindex2\"
                   style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
-                  class=\"ml-4 rounded btn   z-depth-1 winter-neva-gradient\">
+                  class=\"ml-4 rounded btn   z-depth-1 blue-gradient\">
                   Envoyer
               </button>
           </form>
 </section>  
 
  <script>
-       
+
+       gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 }); 
+        gsap.to(\".box\", {rotation: 0, x: 10, duration: 4}); 
+
       //  document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
             var w = parseInt(window.innerWidth);
             pos=w-450;
@@ -136,10 +143,8 @@ form#lead_form_float {
           document.getElementById(\"lead_form_float\").style.left = pos + 'px';
         });
 
-      /*
-         gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 }); 
-        gsap.to(\".box\", {rotation: -55, x: 10, duration: 4}); */
-
+      
+         
       window.addEventListener('scroll', function(e){
      
             var docScrollHeight=document.documentElement.scrollHeight;
@@ -208,7 +213,11 @@ form#lead_form_float {
             background: rgb(2,0,36);
             background: linear-gradient(55deg, rgba(2,0,76,1) 3%, rgba(9,9,121,1) 31%, rgba(25,195,229,1) 90%);
             color:white;
-            border: 1px solid grey; }
+            border: 1px solid grey; 
+            background-image:url(https://drive.google.com/uc?export=view&id=1PoS0Ca36DZi3F2hibDNY_YZQ5ttIFQrt); 
+         
+            
+            }
 
   #btnFormindex2:hover{
   background: rgba(45,125,190,1);
@@ -218,7 +227,7 @@ form#lead_form_float {
 <section style=\"position:relative\">
 
           <form  id=\"lead_form_float\" action=\"#\" method=\"post\" 
-          class=\" my-0 p-3 text-center d-none d-xl-block  z-depth-3 \">
+          class=\" box my-0 p-3 text-center d-none d-xl-block  z-depth-3 \">
 
             <h4 class=\"text-center  mb-3\">Demander un devis </h4><br>
 
@@ -264,14 +273,17 @@ form#lead_form_float {
               <button 
                   id=\"btnFormindex2\"
                   style=\"margin-top:-4px; border:1px solid black; border-radius:10px;color:black;margin-top:5px;\" 
-                  class=\"ml-4 rounded btn   z-depth-1 winter-neva-gradient\">
+                  class=\"ml-4 rounded btn   z-depth-1 blue-gradient\">
                   Envoyer
               </button>
           </form>
 </section>  
 
  <script>
-       
+
+       gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 }); 
+        gsap.to(\".box\", {rotation: 0, x: 10, duration: 4}); 
+
       //  document.getElementById(\"lead_form_float\").style.visibility = \"hidden\"; 
             var w = parseInt(window.innerWidth);
             pos=w-450;
@@ -297,10 +309,8 @@ form#lead_form_float {
           document.getElementById(\"lead_form_float\").style.left = pos + 'px';
         });
 
-      /*
-         gsap.from(\".box\", { opacity: 0,  y: 100,  duration: 1 }); 
-        gsap.to(\".box\", {rotation: -55, x: 10, duration: 4}); */
-
+      
+         
       window.addEventListener('scroll', function(e){
      
             var docScrollHeight=document.documentElement.scrollHeight;

@@ -37,6 +37,7 @@ class __TwigTemplate_fb42d068db6f39a3dbd4691e8b56bda79fa35ea70d7c19432f501163066
         echo "<!-- CONTACT SECTION -->
   <section id=\"contact\" class=\"py-3\">
     <div class=\"container\">
+
       <div class=\"row\">
         <div class=\"col-md-4\">
           <div class=\"card p-4\">
@@ -114,6 +115,7 @@ class __TwigTemplate_fb42d068db6f39a3dbd4691e8b56bda79fa35ea70d7c19432f501163066
         return new Source("<!-- CONTACT SECTION -->
   <section id=\"contact\" class=\"py-3\">
     <div class=\"container\">
+
       <div class=\"row\">
         <div class=\"col-md-4\">
           <div class=\"card p-4\">

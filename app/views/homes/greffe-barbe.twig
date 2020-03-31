@@ -17,7 +17,9 @@
  {% include('/components/greffe_barbe/page_header.twig') %}
  {% include('/components/greffe_barbe/blog_section.twig') %}
  
- 
+ {% block newsletter_section %}
+     {% include('/components/index/lead_form-fix_bottom.twig') %}
+    {% endblock  %}
 
 {% endblock  %}
 

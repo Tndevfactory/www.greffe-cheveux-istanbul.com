@@ -36,6 +36,29 @@ class __TwigTemplate_25dbcba19af18c2003799023f0957659d296069e7758a26e2b89f98b045
         // line 1
         echo "<!-- VIDEO PLAY -->
 <!-- video_play_section -->
+
+<style>
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background-image:url(https://drive.google.com/uc?export=view&id=11Lz_FKlZIyvSts2LseOYUKZCBkYUPMpp); 
+  /* ../img/video_play_section/media.jpg */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+</style>
+
+
   <section id=\"video-play\">
     <div class=\"dark-overlay\">
       <div class=\"row\">
@@ -84,6 +107,29 @@ class __TwigTemplate_25dbcba19af18c2003799023f0957659d296069e7758a26e2b89f98b045
     {
         return new Source("<!-- VIDEO PLAY -->
 <!-- video_play_section -->
+
+<style>
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background-image:url(https://drive.google.com/uc?export=view&id=11Lz_FKlZIyvSts2LseOYUKZCBkYUPMpp); 
+  /* ../img/video_play_section/media.jpg */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+</style>
+
+
   <section id=\"video-play\">
     <div class=\"dark-overlay\">
       <div class=\"row\">
