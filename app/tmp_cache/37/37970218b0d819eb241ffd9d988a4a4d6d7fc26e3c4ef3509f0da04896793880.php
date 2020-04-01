@@ -68,10 +68,10 @@ class __TwigTemplate_ea4f07a95608911cfff952ea26666405908ee2f48d9f39ecce6dd597b8b
         echo "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js\" integrity=\"sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=\" crossorigin=\"anonymous\"></script>
 
 
-
 <style>
 
  @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
 
 body {
   overflow-x: hidden;
@@ -127,10 +127,10 @@ body {
 <script src=\"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js\" integrity=\"sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=\" crossorigin=\"anonymous\"></script>
 
 
-
 <style>
 
  @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
 
 body {
   overflow-x: hidden;
